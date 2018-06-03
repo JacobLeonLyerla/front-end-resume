@@ -5,6 +5,7 @@ import { Row, Col } from 'reactstrap';
 import Nav from './Home/nav'
 import LeftPannel from './LeftComponent/left'
 import MiddlePannel from './MiddleComponent/middle'
+import RightPannel from './RightComponent/right'
 
 
 class App extends Component {
@@ -13,13 +14,16 @@ class App extends Component {
       <div className="App">
        
      <Nav/>
-     
+
      <Row>
        <Col lg="4">
 <LeftPannel/>
 </Col>
 <Col lg="4">
 <MiddlePannel/>
+</Col>
+<Col lg="4">
+<RightPannel/>
 </Col>
 </Row>
       </div>

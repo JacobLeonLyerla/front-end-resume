@@ -15,3 +15,9 @@
 .btn:hover {
   background: #BEDCCF;
 }
+.col-lg-4 {
+  padding-right: 25px;
+}
+.col-lg-4 .progress-bar {
+  background: #BEDCCF;
+}
