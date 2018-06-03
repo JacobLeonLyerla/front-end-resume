@@ -1,0 +1,9 @@
+.App .navbar {
+  background: #7EB98B;
+}
+.App .navbar .navbar-brand {
+  color: white;
+}
+.App .navbar .nav-link {
+  color: white;
+}
