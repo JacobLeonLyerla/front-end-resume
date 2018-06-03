@@ -7,3 +7,11 @@
 .App .navbar .nav-link {
   color: white;
 }
+.btn {
+  background: #EDEBC9;
+  color: black;
+  border: none;
+}
+.btn:hover {
+  background: #BEDCCF;
+}
