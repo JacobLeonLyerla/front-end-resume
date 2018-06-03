@@ -3,7 +3,7 @@ import React,{Component} from 'react'
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
-class LeftPannel extends Component{
+class LeftPanel extends Component{
 constructor(props){
     super(props)
     this.state={
@@ -68,4 +68,4 @@ render(){
     </React.Fragment>)
 }
 }
-export default LeftPannel
+export default LeftPanel

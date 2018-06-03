@@ -3,9 +3,9 @@ import './App.css';
 import './css/index.css'
 import { Row, Col } from 'reactstrap';
 import Nav from './Home/nav'
-import LeftPannel from './LeftComponent/left'
-import MiddlePannel from './MiddleComponent/middle'
-import RightPannel from './RightComponent/right'
+import LeftPanel from './LeftComponent/left'
+import MiddlePanel from './MiddleComponent/middle'
+import RightPanel from './RightComponent/right'
 
 
 class App extends Component {
@@ -17,13 +17,13 @@ class App extends Component {
 
      <Row>
        <Col lg="4">
-<LeftPannel/>
+<LeftPanel/>
 </Col>
 <Col lg="4">
-<MiddlePannel/>
+<MiddlePanel/>
 </Col>
 <Col lg="4">
-<RightPannel/>
+<RightPanel/>
 </Col>
 </Row>
       </div>

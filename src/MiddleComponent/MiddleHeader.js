@@ -9,7 +9,7 @@ const Header = () => {
     <CardBody>
       <CardTitle>About Me</CardTitle>
   
-      <CardText>Some sick ass coder who gets all the ladies, who is hella good at react and being a fucking baller in the paint, massive less and sass skills, reactstrap i got that shit, look at ow blinging this site is boooi.</CardText>
+      <CardText>Some sick ass coder who gets all the ladies and men, who is hella good at react and being a fucking baller in the paint, massive less and sass skills, reactstrap i got that shit, look at how blinging this site is boooi.</CardText>
       <Button>Contact me</Button>
     </CardBody>
   </Card>

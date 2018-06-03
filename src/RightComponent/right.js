@@ -1,10 +1,11 @@
 import React from 'react';
 import { Progress,Label } from 'reactstrap';
 
-const RightPannel = () => {
+const RightPanel = () => {
   return (
-    <div>
-        <Label>Coding Skillz</Label>
+    <div className="progress-styles">
+        <Label className="label-styles">Coding Skillz</Label>
+        <div className="progress-styles">
          <div className="text-left">React</div>
       <Progress value="90" /> 
       <div className="text-left">JavaScript</div>
@@ -16,9 +17,9 @@ const RightPannel = () => {
       <Progress value="65" />
       <div className="text-left">C++</div>
       <Progress value="60" />
-      
+      </div>
      
       </div>
       )
       }
-      export default RightPannel
+      export default RightPanel

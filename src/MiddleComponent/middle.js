@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import Header from './MiddleHeader'
-const MiddlePannel = () =>{
+const MiddlePanel = () =>{
     return(
         <Header/>
     )
 }
-export default MiddlePannel;
+export default MiddlePanel;
