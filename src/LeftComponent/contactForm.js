@@ -25,6 +25,7 @@ render(){
             />
              <Label className="contactLabel-styles">Leave a message here</Label>
 <Input
+className="message-styles"
   type="textarea" 
 
   placeholder="Message..."

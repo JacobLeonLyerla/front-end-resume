@@ -6,6 +6,7 @@ import Nav from "./Home/nav";
 import LeftPanel from "./LeftComponent/left";
 import MiddlePanel from "./MiddleComponent/middle";
 import RightPanel from "./RightComponent/right";
+import Footer from "./Footer/footer"
 
 class App extends Component {
   render() {
@@ -14,16 +15,17 @@ class App extends Component {
         <Nav />
 
         <Row>
-          <Col lg="4">
+          <Col md="4" lg="4">
             <LeftPanel />
           </Col>
-          <Col lg="4">
+          <Col md="4"lg="4">
             <MiddlePanel />
           </Col>
-          <Col lg="4">
+          <Col md="4"lg="4">
             <RightPanel />
           </Col>
         </Row>
+        <Footer/>
       </div>
     );
   }
