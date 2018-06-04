@@ -14,7 +14,6 @@ const Header = () => {
       this site was designed with less, react, with reactstrap, along with axios.<br/>
       I used design-seeds to choose my color pallet.
       </CardText>
-      <Button>Contact me</Button>
     </CardBody>
   </Card>
   );

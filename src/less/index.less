@@ -1,115 +1,125 @@
-.App{
-    //******************************NAV BAR STYLES
-.navbar{
-    
-    background:@main-color;
-    .navbar-brand{
-        color:white
-        
+.App {
+  //******************************NAV BAR STYLES
+  .navbar {
+    background: @main-color;
+    .navbar-brand {
+      color: white;
     }
-    .nav-link{
-            color:white;
-        }
-}
-}//APP
+    .nav-link {
+      color: white;
+    }
+  }
+} //APP
 //**************************************COMPONENTS STYLES
 
-.component-styles{
-    margin-top:0.2%;
-    margin-bottom:1%;
+.component-styles {
+  margin-top: 0.2%;
+  margin-bottom: 1%;
 }
 //**************************************GENERAL COMPONENT STYLES
-.btn{
-    background:@accent-color;
-    color:black;
-    border:none;
- 
+.btn {
+  background: @accent-color;
+  color: black;
+  border: none;
 }
-.btn:hover{
-    background:@secondary-color;
-
+.btn:hover {
+  background: @main-color;
 }
 //*************************************LEFT COMPONENT
-.nav-tabs{
-    background:@accent-color;
-
+.nav-tabs {
+  background: @accent-color;
 }
 
-.contactLabel-styles{
- font-size:25px;
-text-align: left;
-width:100%;
+.contactLabel-styles {
+  font-size: 25px;
+  text-align: left;
+  width: 100%;
 }
-.contactCard-styles{
-    background:@secondary-color;
-  
+.contactCard-styles {
+  background: @secondary-color;
 }
-.form-control{
-    font-size:25px;
-    margin-bottom:3%;
+.form-control {
+  font-size: 25px;
+  margin-bottom: 3%;
 }
-.list-group{
- color:white;
- font-size:25px;
- 
- .list-group-item{
-     background:@secondary-color;
- }
-}
-.message-styles{
+.list-group {
+  color: white;
+  font-size: 25px;
 
-    height:300px;
+  .list-group-item {
+    background: @secondary-color;
+  }
+}
+.message-styles {
+  height: 300px;
+}
+//******************************************MODAL CONTENT
+.modal-content{
+    margin-top:40%;
+    background:@third-color;
+    color:white;
+    .modal-title{
+        width:100%;
+        text-align: center;
+        font-size:30px;
+    
+    }
+    .modal-body{
+        font-size:20px;
+    }
+    .modalbutton-styles{
+       margin: 0 auto;
+       width:30%;
+        font-size:17px;
+    }
+.close{
+    color:@accent-color;
+}
 }
 //******************************************MIDDLE COMPONENT
-.card-title{
-    font-size:30px;
+.card-title {
+  font-size: 30px;
 }
-.card-text{
-    border-top:2px solid @main-color;
-    font-size:20px;
+.card-text {
+  border-top: 2px solid @main-color;
+  font-size: 20px;
 }
-.card-img-top{
+.card-img-top {
+}
 
-}
+//*****************************************RIGHT COMPONENT
+.progress-styles {
+  width: 97%;
+  font-size: 20px;
+  .label-styles {
+    font-size: 30px;
+  }
 
- //*****************************************RIGHT COMPONENT
-.progress-styles{
-  
-    width:97%;
-    font-size: 20px;
-    .label-styles{
-        font-size: 30px;
- 
-    }
-   
-
-.label-styles{
-    width:100%;
-    background:@accent-color;
-    padding-bottom:1%;
-    border-bottom:2px solid @secondary-color
-}
-.text-left{
-    font-size:25px;
-
-}
-.progress-bar{
-    
-    background:@secondary-color;
-}
+  .label-styles {
+    width: 100%;
+    background: @accent-color;
+    padding-bottom: 1%;
+    border-bottom: 2px solid @secondary-color;
+  }
+  .text-left {
+    font-size: 25px;
+  }
+  .progress-bar {
+    background: @secondary-color;
+  }
 }
 //***********************************FOOTER COMPONENT
-.footer-styles{
-    margin:0 auto;
-    background:@fourth-color !important;
- 
-    border-radius: 10px;
-display:flex;
-justify-content: center;
+.footer-styles {
+  margin: 0 auto;
+  background: @fourth-color !important;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 //**************************VARIABLES
-@main-color: #7EB98B;
-@secondary-color:#BEDCCF;
-@third-Color:#90C4B9;
-@fourth-color:#C3E7AB;
-@accent-color:#EDEBC9;
+@main-color: #7eb98b;
+@secondary-color: #bedccf;
+@third-color: #90c4b9;
+@fourth-color: #c3e7ab;
+@accent-color: #edebc9;

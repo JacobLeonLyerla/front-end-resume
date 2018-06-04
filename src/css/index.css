@@ -1,5 +1,5 @@
 .App .navbar {
-  background: #7EB98B;
+  background: #7eb98b;
 }
 .App .navbar .navbar-brand {
   color: white;
@@ -12,15 +12,15 @@
   margin-bottom: 1%;
 }
 .btn {
-  background: #EDEBC9;
+  background: #edebc9;
   color: black;
   border: none;
 }
 .btn:hover {
-  background: #BEDCCF;
+  background: #7eb98b;
 }
 .nav-tabs {
-  background: #EDEBC9;
+  background: #edebc9;
 }
 .contactLabel-styles {
   font-size: 25px;
@@ -28,7 +28,7 @@
   width: 100%;
 }
 .contactCard-styles {
-  background: #BEDCCF;
+  background: #bedccf;
 }
 .form-control {
   font-size: 25px;
@@ -39,16 +39,37 @@
   font-size: 25px;
 }
 .list-group .list-group-item {
-  background: #BEDCCF;
+  background: #bedccf;
 }
 .message-styles {
   height: 300px;
+}
+.modal-content {
+  margin-top: 40%;
+  background: #90c4b9;
+  color: white;
+}
+.modal-content .modal-title {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-content .modal-body {
+  font-size: 20px;
+}
+.modal-content .modalbutton-styles {
+  margin: 0 auto;
+  width: 30%;
+  font-size: 17px;
+}
+.modal-content .close {
+  color: #edebc9;
 }
 .card-title {
   font-size: 30px;
 }
 .card-text {
-  border-top: 2px solid #7EB98B;
+  border-top: 2px solid #7eb98b;
   font-size: 20px;
 }
 .progress-styles {
@@ -60,19 +81,19 @@
 }
 .progress-styles .label-styles {
   width: 100%;
-  background: #EDEBC9;
+  background: #edebc9;
   padding-bottom: 1%;
-  border-bottom: 2px solid #BEDCCF;
+  border-bottom: 2px solid #bedccf;
 }
 .progress-styles .text-left {
   font-size: 25px;
 }
 .progress-styles .progress-bar {
-  background: #BEDCCF;
+  background: #bedccf;
 }
 .footer-styles {
   margin: 0 auto;
-  background: #C3E7AB !important;
+  background: #c3e7ab !important;
   border-radius: 10px;
   display: flex;
   justify-content: center;
