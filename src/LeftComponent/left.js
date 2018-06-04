@@ -2,7 +2,8 @@ import React,{Component} from 'react'
 
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
-
+import ContactInfo from './contactInfo'
+import ContactForm from './contactForm'
 class LeftPanel extends Component{
 constructor(props){
     super(props)
@@ -42,27 +43,13 @@ render(){
           <TabPane tabId="1">
             <Row>
               <Col sm="12">
-                <h4>Tab 1 Contents</h4>
+                <ContactInfo/>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="2">
-            <Row>
-              <Col sm="6">
-                <Card body>
-                  <CardTitle>Special Title Treatment</CardTitle>
-                  <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                  <Button>Go somewhere</Button>
-                </Card>
-              </Col>
-              <Col sm="6">
-                <Card body>
-                  <CardTitle>Special Title Treatment</CardTitle>
-                  <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                  <Button>Go somewhere</Button>
-                </Card>
-              </Col>
-            </Row>
+          <ContactForm/>
+       
           </TabPane>
         </TabContent>
     </React.Fragment>)
