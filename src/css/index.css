@@ -7,6 +7,10 @@
 .App .navbar .nav-link {
   color: white;
 }
+.component-styles {
+  margin-top: 0.2%;
+  margin-bottom: 1%;
+}
 .btn {
   background: #EDEBC9;
   color: black;
@@ -14,6 +18,9 @@
 }
 .btn:hover {
   background: #BEDCCF;
+}
+.nav-tabs {
+  background: #EDEBC9;
 }
 .contactLabel-styles {
   font-size: 25px;
@@ -35,24 +42,27 @@
   background: #BEDCCF;
 }
 .message-styles {
-  height: 370px;
+  height: 300px;
 }
 .card-title {
-  font-size: 40px;
+  font-size: 30px;
 }
 .card-text {
   border-top: 2px solid #7EB98B;
-  font-size: 25px;
+  font-size: 20px;
 }
 .progress-styles {
-  width: 90%;
+  width: 97%;
   font-size: 20px;
 }
 .progress-styles .label-styles {
-  font-size: 40px;
+  font-size: 30px;
 }
-.progress-styles .progress-styles {
-  border-top: 2px solid #7EB98B;
+.progress-styles .label-styles {
+  width: 100%;
+  background: #EDEBC9;
+  padding-bottom: 1%;
+  border-bottom: 2px solid #BEDCCF;
 }
 .progress-styles .text-left {
   font-size: 25px;

@@ -4,7 +4,7 @@ import { Progress,Label } from 'reactstrap';
 const RightPanel = () => {
   return (
     <div className="progress-styles">
-        <Label className="label-styles">Coding Skillz</Label>
+        <Label className="label-styles">Proficiencies</Label>
         <div className="progress-styles">
          <div className="text-left">React</div>
       <Progress value="90" /> 

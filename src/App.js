@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <Nav />
 
-        <Row>
+        <Row className="component-styles">
           <Col md="4" lg="4">
             <LeftPanel />
           </Col>
