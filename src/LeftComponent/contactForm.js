@@ -31,10 +31,18 @@ class ContactForm extends Component {
   }
   sendMessage = event => {
     const message = {};
-    message.email = this.state.email;
-    message.phone = this.state.phone;
-    message.company = this.state.company;
-    message.message = this.state.message;
+    if (this.state.email !== "") {
+      message.email = this.state.email;    }
+    if (this.state.phone !== "") {
+      message.phone = this.state.phone;    }
+    if (this.state.company !== "") {
+      message.company = this.state.company;
+    }
+    if (this.state.message !== "") {
+      message.message = this.state.message;
+    }
+ 
+    
 
     axios
       .post("https://jacob-lyerla-resume.herokuapp.com/messages", message)
