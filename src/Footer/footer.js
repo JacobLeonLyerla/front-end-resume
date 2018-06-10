@@ -1,22 +1,11 @@
-import React from "react"
-import{Link} from "react-router-dom"
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
+import React from "react";
 
-const Footer = props =>{
-return(
-    <Navbar className="footer-styles"  light expand="md">
-    <NavbarBrand href="/"></NavbarBrand>
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
+
+const Footer = props => {
+  return (
+    <Navbar className="footer-styles" light expand="md">
+      <NavbarBrand href="/" />
 
       <Nav>
         <NavItem>
@@ -31,11 +20,8 @@ return(
         <NavItem>
           <NavLink href="https://github.com/JacobLeonLyerla">GitHub</NavLink>
         </NavItem>
-  
       </Nav>
- 
-  </Navbar>
-)
-
-}
+    </Navbar>
+  );
+};
 export default Footer;

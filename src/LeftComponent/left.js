@@ -1,58 +1,87 @@
-import React,{Component} from 'react'
-
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
-import classnames from 'classnames';
-import ContactInfo from './contactInfo'
-import ContactForm from './contactForm'
-class LeftPanel extends Component{
-constructor(props){
-    super(props)
-    this.state={
-        activeTab: '1'
-    }
+import React, { Component, Fragment } from "react";
+// this is where i import my reactstrap elements
+import {
+  TabContent,
+  TabPane,
+  Nav,
+  NavItem,
+  NavLink,
+  Row,
+  Col
+} from "reactstrap";
+import classnames from "classnames";
+import ContactInfo from "./contactInfo";
+import ContactForm from "./contactForm";
+// setting up a class that extends from the Component, that is given from react,
+// another way to do tihs is to use "React.Component" then you do not need to import Component, but i prefer just to import it.
+class LeftPanel extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      //setting up the number of the current tab that can be active.
+      activeTab: "1"
+    };
+    // binding toggle to this class
     this.toggle = this.toggle.bind(this);
-}
-toggle(tab) {
+  }
+
+  toggle(tab) {
+    // this is saying that if the tab you toggled is not the currently active tab, then set that tab to acti
     if (this.state.activeTab !== tab) {
       this.setState({
         activeTab: tab
       });
     }
   }
-render(){
-    return(<React.Fragment>
+  render() {
+    return (
+      // Gragment alows the return of multiple elements without wrapping them into one jsx div.
+      <Fragment>
+        {/* this is a nav tabs call gives them all the reactstap tabs styling */}
         <Nav tabs>
+        {/* this is what gives the navitem the default reactstrap css goodies,  */}
           <NavItem>
+            {/* the nav link sets the number of the active tab, and when that tab is clicked it passes that number into toggle, */}
             <NavLink
-              className={classnames({ active: this.state.activeTab === '1' })}
-              onClick={() => { this.toggle('1'); }}
+              className={classnames({ active: this.state.activeTab === "1" })}
+              onClick={() => {
+                this.toggle("1");
+              }}
             >
-             Contact info
+            {/* This is the text that will be displayed for the nav item. */}
+              Contact info
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink
-              className={classnames({ active: this.state.activeTab === '2' })}
-              onClick={() => { this.toggle('2'); }}
+              className={classnames({ active: this.state.activeTab === "2" })}
+              onClick={() => {
+                this.toggle("2");
+              }}
             >
-             Contact me
+              Contact me
             </NavLink>
           </NavItem>
         </Nav>
+        {/* this checks the active tab */}
         <TabContent activeTab={this.state.activeTab}>
+        {/* this ties the content to the tab by the id */}
           <TabPane tabId="1">
             <Row>
               <Col sm="12">
-                <ContactInfo/>
+
+              {/* This is where i render the content for the tab it's another component that contains the info displayed */}
+                <ContactInfo />
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="2">
-          <ContactForm/>
-       
+            <ContactForm />
           </TabPane>
         </TabContent>
-    </React.Fragment>)
+      </Fragment>
+    );
+  }
 }
-}
-export default LeftPanel
+//exporting the component here so that i can import it in other files.
+export default LeftPanel;
