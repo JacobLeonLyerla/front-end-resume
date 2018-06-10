@@ -4,7 +4,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
 const Footer = props => {
   return (
-    <Navbar className="footer-styles" light expand="md">
+    <Navbar className="footer-styles"  >
       <NavbarBrand href="/" />
 
       <Nav>
