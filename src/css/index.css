@@ -108,7 +108,7 @@
   justify-content: center;
 }
 .progress-styles .card-styles {
-  margin-top: .5%;
+  margin-top: 0.5%;
 }
 .progress-styles .card-styles .card {
   background: #bedccf;
@@ -121,8 +121,7 @@
 }
 .progress-styles .card-styles .card-link:hover {
   color: white;
-  font-size: 25px;
-  Background: #7eb98b;
+  background: #7eb98b;
 }
 .progress-styles .card-styles .card-img {
   width: 60%;
@@ -142,7 +141,7 @@
 }
 .singleCard-styles .card .card-body .card-link:hover {
   color: white;
-  Background: #7eb98b;
+  background: #7eb98b;
 }
 .singleCard-styles .card .card-body .card-text {
   font-size: 25px;
