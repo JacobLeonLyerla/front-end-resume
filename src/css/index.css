@@ -107,6 +107,9 @@
   display: flex;
   justify-content: center;
 }
+.progress-styles .card-styles {
+  margin-top: .5%;
+}
 .progress-styles .card-styles .card {
   background: #bedccf;
   color: black;
@@ -124,20 +127,29 @@
 .progress-styles .card-styles .card-img {
   width: 60%;
 }
-.singleCard-styles .card-body .card-title {
+.progress-styles .btn {
+  width: 100%;
+}
+.singleCard-styles .card {
+  background: #bedccf;
+}
+.singleCard-styles .card .card-body .card-title {
   font-size: 50px;
 }
-.singleCard-styles .card-body .card-link {
+.singleCard-styles .card .card-body .card-link {
   color: cornflowerblue;
   font-size: 15px;
 }
-.singleCard-styles .card-body .card-link:hover {
+.singleCard-styles .card .card-body .card-link:hover {
   color: white;
   Background: #7eb98b;
 }
-.singleCard-styles .card-body .card-text {
+.singleCard-styles .card .card-body .card-text {
   font-size: 25px;
 }
-.singleCard-styles .card-img {
+.singleCard-styles .card .card-img {
   width: 10%;
+}
+.singleCard-styles .card .btn {
+  width: 20%;
 }
