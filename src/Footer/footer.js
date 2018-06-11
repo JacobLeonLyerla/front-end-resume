@@ -2,7 +2,7 @@ import React from "react";
 
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
-const Footer = props => {
+const Footer = () => {
   return (
     <Navbar className="footer-styles"  >
       <NavbarBrand href="/" />

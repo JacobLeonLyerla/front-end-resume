@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 //importing in axios
 import axios from "axios";
@@ -11,7 +12,8 @@ import {
   Modal,
   ModalHeader,
   ModalBody,
-  ModalFooter
+  ModalFooter,
+  Col
 } from "reactstrap";
 // this is a stateful component because there is data being set on state.
 class ContactForm extends Component {
@@ -35,7 +37,7 @@ class ContactForm extends Component {
       modal: !this.state.modal
     });
   }
-  sendMessage = event => {
+  sendMessage = () => {
     // setting the message to a constant that is an empty object
     const message = {};
     //these if's check if the input is NOT empty,
@@ -57,7 +59,7 @@ class ContactForm extends Component {
     // the request is a post, and we pass in the object that we created and added in the state values,
     // this request is made to my herokuapp, if it's a little slow it's due to my heroku dyno being asleep, but it should run correctly after waking.
       .post("https://jacob-lyerla-resume.herokuapp.com/messages", message)
-      .then(respone => {
+      .then(response => {
         // this toggles the modal when you successfully submit an object
         this.toggle();
         // this resets the the state, so all the strings we entered in are cleared and the state is just emprty strings
@@ -80,6 +82,7 @@ class ContactForm extends Component {
   };
   render() {
     return (
+     
       <Card className="contactCard-styles">
         <CardBody>
           <Label className="contactLabel-styles">Email</Label>

@@ -1,8 +1,9 @@
 import React from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
+import { Card, CardImg, CardText, CardBody, CardTitle, Col } from "reactstrap";
 
 const Header = () => {
   return (
+    <Col md="4" lg="4">
     <Card>
       <CardImg
         top
@@ -23,6 +24,7 @@ const Header = () => {
         </CardText>
       </CardBody>
     </Card>
+    </Col>
   );
 };
 

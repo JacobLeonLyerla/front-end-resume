@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 // stateless component nothing needs to be set here
-const HomeNav = props => {
+const HomeNav = () => {
   return (
 // this is the main brand or logo for the page
     <Navbar light expand="md">

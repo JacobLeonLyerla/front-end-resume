@@ -65,6 +65,15 @@
 .modal-content .close {
   color: #edebc9;
 }
+.leftProgress-styles {
+  margin-top: 10px;
+}
+.leftProgress-styles .progress-styles {
+  margin-left: 1%;
+}
+.leftProgress-styles .label-styles {
+  display: none;
+}
 .card-title {
   font-size: 30px;
 }
@@ -97,4 +106,38 @@
   border-radius: 10px;
   display: flex;
   justify-content: center;
+}
+.progress-styles .card-styles .card {
+  background: #bedccf;
+  color: black;
+  min-height: 400px;
+  margin-bottom: 5%;
+}
+.progress-styles .card-styles .card-link {
+  color: cornflowerblue;
+}
+.progress-styles .card-styles .card-link:hover {
+  color: white;
+  font-size: 25px;
+  Background: #7eb98b;
+}
+.progress-styles .card-styles .card-img {
+  width: 60%;
+}
+.singleCard-styles .card-body .card-title {
+  font-size: 50px;
+}
+.singleCard-styles .card-body .card-link {
+  color: cornflowerblue;
+  font-size: 15px;
+}
+.singleCard-styles .card-body .card-link:hover {
+  color: white;
+  Background: #7eb98b;
+}
+.singleCard-styles .card-body .card-text {
+  font-size: 25px;
+}
+.singleCard-styles .card-img {
+  width: 10%;
 }
