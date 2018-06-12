@@ -32,6 +32,12 @@
 .nav-tabs .nav-link {
   cursor: pointer;
 }
+.nav-tabs .row {
+  width: 100%;
+}
+.nav-tabs .row .col-md-12 {
+  padding: 0px;
+}
 .contactLabel-styles {
   font-size: 25px;
   text-align: left;
@@ -115,19 +121,6 @@
   border-radius: 10px;
   display: flex;
   justify-content: center;
-}
-.container {
-  background: #c3e7ab;
-}
-.container .row {
-  height: 50px;
-}
-.container .row .col-md-12 {
-  background: blue;
-  height: 10px !important;
-}
-.container .row .col-md-12 .col-md-5 {
-  margin-bottom: 0px;
 }
 .progress-styles .card-styles {
   margin-top: 0.5%;

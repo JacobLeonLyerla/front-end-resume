@@ -41,10 +41,14 @@ class LeftPanel extends Component {
 
       // Gragment alows the return of multiple elements without wrapping them into one jsx div.
       <Fragment>
-              <Col md="4" lg="4">
+    
+              <Col md="4" lg="4">    
+              
         {/* this is a nav tabs call gives them all the reactstap tabs styling */}
         <Nav tabs>
+        <Row>
           {/* this is what gives the navitem the default reactstrap css goodies,  */}
+          <Col sm="12" md="12" lg="4" >  
           <Link to= "/" style={{textDecoration:'none',color:'black'}}>
           <NavItem>
             {/* the nav link sets the number of the active tab, and when that tab is clicked it passes that number into toggle, */}
@@ -59,6 +63,8 @@ class LeftPanel extends Component {
             </NavLink>
           </NavItem>
           </Link>
+          </Col> 
+          <Col  sm="12" md="12" lg="4" >  
           <NavItem>
             <NavLink
               className={classnames({ active: this.state.activeTab === "2" })}
@@ -69,6 +75,8 @@ class LeftPanel extends Component {
               Contact me
             </NavLink>
           </NavItem>
+          </Col> 
+          <Col  sm="12" md="12" lg="4" >  
           <Link to= "/projects" style={{textDecoration:'none',color:'black'}}>
             <NavItem>
             <NavLink
@@ -81,8 +89,11 @@ class LeftPanel extends Component {
               </NavLink>
             </NavItem>
           </Link>
+          </Col>  
           {/* create a third link, that displays the project compoent */}
+       </Row>
         </Nav>
+        
         {/* this checks the active tab */}
         <TabContent activeTab={this.state.activeTab}>
           {/* this ties the content to the tab by the id */}
