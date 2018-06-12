@@ -82,7 +82,8 @@
   color: #edebc9;
 }
 .leftProgress-styles {
-  margin-top: 10px;
+  margin-top: 2%;
+  border-top: 4px solid #bedccf;
 }
 .leftProgress-styles .progress-styles {
   margin-left: 1%;
