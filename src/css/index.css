@@ -14,7 +14,8 @@
   padding-right: 1%;
   padding-left: .3%;
 }
-.component-styles .row {
+.row {
+  margin-right: 0px;
   margin-left: 0px;
 }
 .btn {
@@ -109,7 +110,7 @@
   background: #bedccf;
 }
 .footer-styles {
-  margin-top: 1.6%;
+  margin-top: 3.6%;
   background: #c3e7ab !important;
   border-radius: 10px;
   display: flex;
