@@ -4,21 +4,29 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
 const Footer = () => {
   return (
-    <Navbar className="footer-styles"  >
+    <Navbar className="footer-styles">
       <NavbarBrand href="/" />
 
       <Nav>
         <NavItem>
-          <NavLink href="http://linkedin.com">Linkedin</NavLink>
+          <NavLink href="http://linkedin.com">
+            <i class="fab fa-linkedin" />
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="http://www.twitter.com">Twitter</NavLink>
+          <NavLink href="http://www.twitter.com">
+            <i class="fab fa-twitter-square" />
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="http://youtube.com">Youtube</NavLink>
+          <NavLink href="http://youtube.com">
+            <i class="fab fa-youtube-square" />
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://github.com/JacobLeonLyerla">GitHub</NavLink>
+          <NavLink href="https://github.com/JacobLeonLyerla">
+            <i class="fab fa-github-square" />
+          </NavLink>
         </NavItem>
       </Nav>
     </Navbar>

@@ -116,6 +116,19 @@
   display: flex;
   justify-content: center;
 }
+.container {
+  background: #c3e7ab;
+}
+.container .row {
+  height: 50px;
+}
+.container .row .col-md-12 {
+  background: blue;
+  height: 10px !important;
+}
+.container .row .col-md-12 .col-md-5 {
+  margin-bottom: 0px;
+}
 .progress-styles .card-styles {
   margin-top: 0.5%;
 }
