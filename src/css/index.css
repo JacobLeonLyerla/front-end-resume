@@ -1,4 +1,5 @@
 .App .navbar {
+  width: 100%;
   background: #7eb98b;
 }
 .App .navbar .navbar-brand {
@@ -10,6 +11,11 @@
 .component-styles {
   margin-top: 0.2%;
   margin-bottom: 1%;
+  padding-right: 1%;
+  padding-left: .3%;
+}
+.component-styles .row {
+  margin-left: 0px;
 }
 .btn {
   background: #edebc9;
@@ -21,6 +27,9 @@
 }
 .nav-tabs {
   background: #edebc9;
+}
+.nav-tabs .nav-link {
+  cursor: pointer;
 }
 .contactLabel-styles {
   font-size: 25px;
@@ -82,7 +91,6 @@
   font-size: 20px;
 }
 .progress-styles {
-  width: 97%;
   font-size: 20px;
 }
 .progress-styles .label-styles {

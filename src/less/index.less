@@ -1,6 +1,7 @@
 .App {
   //******************************NAV BAR STYLES
   .navbar {
+    width :100%;
     background: @main-color;
     .navbar-brand {
       color: white;
@@ -15,6 +16,11 @@
 .component-styles {
   margin-top: 0.2%;
   margin-bottom: 1%;
+  padding-right: 1%;
+  padding-left:.3%;
+.row{
+  margin-left:0px;
+}
 }
 //**************************************GENERAL COMPONENT STYLES
 .btn {
@@ -28,6 +34,9 @@
 //*************************************LEFT COMPONENT
 .nav-tabs {
   background: @accent-color;
+  .nav-link{
+    cursor: pointer;
+  }
 }
 
 .contactLabel-styles {
@@ -95,7 +104,7 @@
 
 //*****************************************RIGHT COMPONENT
 .progress-styles {
-  width: 97%;
+  
   font-size: 20px;
   .label-styles {
     font-size: 30px;

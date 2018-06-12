@@ -17,11 +17,11 @@ import { Link } from "react-router-dom";
 const Project = props => {
   return (
     <Fragment>
-      <Col md="8" lg="7" className="progress-styles">
+      <Col md="8" lg="8" className="progress-styles">
         {/* map over our return for each object in our array */}
         <Row>
           {props.projects.map(project => (
-            <Col sm="12" md="4" lg="3" className="card-styles">
+            <Col sm="12" md="12" lg="6" xl="4" className="card-styles">
               {/* set up a Link for the card */}
 
               <Card>
