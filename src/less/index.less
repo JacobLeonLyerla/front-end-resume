@@ -1,4 +1,10 @@
+.body{
+min-height: 100vh;
+}
 .App {
+  min-height:100vh;
+ display:flex;
+ flex-direction: column;
   //******************************NAV BAR STYLES
   .navbar {
     width :100%;
@@ -18,6 +24,8 @@
   margin-bottom: 1%;
   padding-right: 1%;
   padding-left:.3%;
+
+
 
 }
 .row{
@@ -137,13 +145,17 @@
 }
 //***********************************FOOTER COMPONENT
 .footer-styles {
+  width:100%;
 
-  margin-top: 3.6%;
+  margin-top:auto;
+align-self: flex-end;
   background: @fourth-color !important;
-
   border-radius: 10px;
   display: flex;
   justify-content: center;
+.nav-link{
+  color:white;
+}
 }
 
    

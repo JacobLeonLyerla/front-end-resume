@@ -58,6 +58,7 @@ using a row and columns to size them correctly */}
               render={props => <Projects {...props} projects={this.state.projects} />}
             />
          <Route exact path="/projects/:id" component={Project}/>
+         
         </Row>
         {/* Rendering the footer at the bottom of the page. */}
         <Footer />

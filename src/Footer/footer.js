@@ -4,7 +4,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
 const Footer = () => {
   return (
-    <Navbar className="footer-styles">
+    <div className="footer-styles">
       <NavbarBrand href="/" />
 
       <Nav>
@@ -29,7 +29,7 @@ const Footer = () => {
           </NavLink>
         </NavItem>
       </Nav>
-    </Navbar>
+    </div>
   );
 };
 export default Footer;

@@ -1,3 +1,11 @@
+.body {
+  min-height: 100vh;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 .App .navbar {
   width: 100%;
   background: #7eb98b;
@@ -117,11 +125,16 @@
   background: #bedccf;
 }
 .footer-styles {
-  margin-top: 3.6%;
+  width: 100%;
+  margin-top: auto;
+  align-self: flex-end;
   background: #c3e7ab !important;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+}
+.footer-styles .nav-link {
+  color: white;
 }
 .progress-styles .card-styles {
   margin-top: 0.5%;
