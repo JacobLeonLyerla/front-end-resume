@@ -105,12 +105,6 @@
 .card-text {
   border-top: 2px solid #7eb98b;
   font-size: 20px;
-  text-align: justify;
-}
-.card-img-top {
-  width: 70%;
-  margin: 0 auto;
-  border-radius: 20px;
 }
 .progress-styles {
   font-size: 20px;
@@ -129,15 +123,6 @@
 }
 .progress-styles .progress-bar {
   background: #bedccf;
-}
-.prof-container .prof-styles {
-  color: black;
-  background: #bedccf;
-}
-.prof-container .list-group-item {
-  font-size: 1rem;
-  background: white;
-  color: #7eb98b;
 }
 .footer-styles {
   width: 100%;

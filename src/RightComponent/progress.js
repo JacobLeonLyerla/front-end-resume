@@ -1,42 +1,29 @@
 import React from "react";
-import { Progress, Label,Col } from "reactstrap";
+import { Progress, Label, ListGroupItem, ListGroup } from "reactstrap";
 
 const ProgressBars = () => {
   return (
- 
-     //i could use a row and column her but i just used a div instead. 
-    <div className="progress-styles">
-      {/* this is where i set and style the label header */}
-      <Label className="label-styles">Proficiencies</Label>
-      {/* this is where i set the container style for all the progress bars */}
-      <div className="progress-styles">
-        {/* this is the label for one of the bars and the text is set to display on the left end of the div */}
-        <div className="text-left">React</div>
-        <Progress value="90" />
-        <div className="text-left">Axios</div>
-        <Progress value="80" />
-        <div className="text-left">Redux</div>
-        <Progress value="70" />
-        {/* i set the value of the bar here */}
-        <div className="text-left">JavaScript</div>
-        <Progress value="85" />
-        <div className="text-left">MongoDB</div>
-        <Progress value="75" />
-        <div className="text-left">Mongoose</div>
-        <Progress value="85" />
-        <div className="text-left">Node.js</div>
-        <Progress value="70" />
-        <div className="text-left">Express</div>
-        <Progress value="80" />
-        <div className="text-left">CSS</div>
-        <Progress value="70" />
-        <div className="text-left">HTML</div>
-        <Progress value="65" />
-        <div className="text-left">C++</div>
-        <Progress value="50" />
-      </div>
+    //i could use a row and column her but i just used a div instead.
+    <div className="progress-styles prof-container">
+      <ListGroup>
+        <Label className="prof-styles">Proficiencies</Label>
+        <ListGroupItem>React.js</ListGroupItem>
+        <ListGroupItem>JavaScript</ListGroupItem>
+        <ListGroupItem>HTML/CSS</ListGroupItem>
+        <ListGroupItem>LESS</ListGroupItem>
+        <ListGroupItem>MongoDB</ListGroupItem>
+        <ListGroupItem>Mongoose</ListGroupItem>
+        <ListGroupItem>Node.js</ListGroupItem>
+        <ListGroupItem>Expess</ListGroupItem>
+        <ListGroupItem>Redux</ListGroupItem>
+        <ListGroupItem>React Context</ListGroupItem>
+        <ListGroupItem>Reactstrap/Bootstrap</ListGroupItem>
+        <ListGroupItem>Python</ListGroupItem>
+        <ListGroupItem>SQL</ListGroupItem>
+        <ListGroupItem>C++</ListGroupItem>
+        <ListGroupItem>C</ListGroupItem>
+      </ListGroup>
     </div>
-  
   );
 };
 export default ProgressBars;
