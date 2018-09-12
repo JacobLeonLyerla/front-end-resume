@@ -32,11 +32,12 @@ getProjectById =id=>{
     })
 }
 render(){
-    console.log(this.state)
+    console.log(this.props)
     return(
  
 <Col md="7" className="singleCard-styles">
               <Card key={this.state.project._id}>
+              
                 <CardBody>
                  <CardImg src={this.state.project.img} />
                   <CardTitle>{this.state.project.title}</CardTitle>

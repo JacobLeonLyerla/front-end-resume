@@ -8,8 +8,12 @@ import {
   NavItem,
   NavLink,
   Row,
-  Col
+  Col,
+  ListGroup,
+   ListGroupItem,
+   Label
 } from "reactstrap";
+import axios from 'axios'
 import classnames from "classnames";
 import ContactInfo from "./contactInfo";
 import ContactForm from "./contactForm";
@@ -21,7 +25,8 @@ class LeftPanel extends Component {
     super(props);
     this.state = {
       //setting up the number of the current tab that can be active.
-      activeTab: "1"
+      activeTab: "1",
+      project:[]
     };
     // binding toggle to this class
     this.toggle = this.toggle.bind(this);
@@ -34,6 +39,33 @@ class LeftPanel extends Component {
         activeTab: tab
       });
     }
+  }
+  // componentDidMount(){
+  //   this.setupTech()
+  // }
+  // setupTech =()=>{
+
+  //   axios
+  //   .get("https://jacob-lyerla-resume.herokuapp.com/projects")
+  //   .then(response => {
+  //     console.log(response.data)
+  //     this.setState({ project: response.data });
+  //   })
+  //   .catch(err => {
+  //     console.log(err);
+  //   });
+  // }
+  renderTech=()=>{
+return this.props.project.map((project,index) =>{
+  if(this.props.index === index){
+    return project.technologies.map(tech=>{
+      return<ListGroupItem>{tech}</ListGroupItem>
+    })
+  }
+})
+   
+    
+  // ))
   }
   render() {
     return (
@@ -109,10 +141,9 @@ class LeftPanel extends Component {
           </TabPane>
 
      
-          <TabPane tabId="3">
-      <div className="leftProgress-styles">
-<Progress/>
-</div>
+          <TabPane tabId="3"><div className="progress-styles tech-container">
+          <ListGroup > <Label className="prof-styles">Technologies</Label>
+          <div className="list-techs"> {this.renderTech()}</div></ListGroup></div>
             </TabPane>
         
             

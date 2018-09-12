@@ -1,0 +1,233 @@
+.body {
+  min-height: 100vh;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.App .navbar {
+  width: 100%;
+  background: #7eb98b;
+}
+.App .navbar .navbar-brand {
+  color: white;
+}
+.App .navbar .nav-link {
+  color: white;
+}
+.component-styles {
+  margin-top: 0.2%;
+  margin-bottom: 1%;
+  padding-right: 1%;
+  padding-left: 0.3%;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.btn {
+  background: #edebc9;
+  color: black;
+  border: none;
+}
+.btn:hover {
+  background: #7eb98b;
+}
+.nav-tabs {
+  background: #edebc9;
+}
+.nav-tabs .nav-link {
+  cursor: pointer;
+}
+.nav-tabs .row {
+  width: 100%;
+}
+.nav-tabs .row .col-md-12 {
+  padding: 0px;
+}
+.contactLabel-styles {
+  font-size: 25px;
+  text-align: left;
+  width: 100%;
+}
+.contactCard-styles {
+  background: #bedccf;
+}
+.form-control {
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+.list-group {
+  color: white;
+  font-size: 25px;
+}
+.list-group .list-group-item {
+  background: #bedccf;
+}
+.message-styles {
+  height: 300px;
+}
+.modal-content {
+  margin-top: 40%;
+  background: #90c4b9;
+  color: white;
+}
+.modal-content .modal-title {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-content .modal-body {
+  font-size: 20px;
+}
+.modal-content .modalbutton-styles {
+  margin: 0 auto;
+  width: 30%;
+  font-size: 17px;
+}
+.modal-content .close {
+  color: #edebc9;
+}
+.leftProgress-styles {
+  margin-top: 2%;
+  border-top: 4px solid #bedccf;
+}
+.leftProgress-styles .progress-styles {
+  margin-left: 1%;
+}
+.leftProgress-styles .label-styles {
+  display: none;
+}
+.card-title {
+  font-size: 26px;
+}
+.card-text {
+  border-top: 2px solid #7eb98b;
+  font-size: 20px;
+  text-align: justify;
+}
+.card-img-top {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.progress-styles {
+  font-size: 20px;
+}
+.progress-styles .label-styles {
+  font-size: 30px;
+}
+.progress-styles .label-styles {
+  width: 100%;
+  background: #edebc9;
+  padding-bottom: 1%;
+  border-bottom: 2px solid #bedccf;
+}
+.progress-styles .text-left {
+  font-size: 25px;
+}
+.progress-styles .progress-bar {
+  background: #bedccf;
+}
+.prof-container .list-items {
+  border: 1px solid #bedccf;
+  height: 70.3vh;
+  overflow: auto;
+}
+.prof-container .prof-styles {
+  color: black;
+  background: #bedccf;
+}
+.prof-container .list-group-item {
+  font-size: 1.3rem;
+  background: white;
+  color: #7eb98b;
+}
+.footer-styles {
+  width: 100%;
+  margin-top: auto;
+  align-self: flex-end;
+  background: #c3e7ab !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.footer-styles .nav-link {
+  color: white;
+}
+.progress-styles .fas:hover {
+  color: #bedccf;
+}
+.progress-styles .projectContainer-styles {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20%;
+  height: 60px;
+  color: white;
+}
+.progress-styles .card-styles {
+  margin-top: 0.5%;
+}
+.progress-styles .card-styles .card {
+  color: black;
+  min-height: 90vh;
+  margin-bottom: 5%;
+  background-image: url("https://i.imgur.com/OPC28dr.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* optional, center the image */
+}
+.progress-styles .card-styles .card-link {
+  color: cornflowerblue;
+}
+.progress-styles .card-styles .card:hover {
+  background-image: url("https://thumbs.gfycat.com/AliveYellowLarva-size_restricted.gif");
+  /* optional, center the image */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* optional, center the image */
+}
+.progress-styles .card-styles .card-link:hover {
+  color: white;
+  background: #7eb98b;
+}
+.progress-styles .card-styles .card-img {
+  width: 60%;
+}
+.progress-styles .btn {
+  width: 100%;
+}
+.singleCard-styles .card {
+  background: #bedccf;
+}
+.singleCard-styles .card .card-body .card-title {
+  font-size: 50px;
+}
+.singleCard-styles .card .card-body .card-link {
+  color: cornflowerblue;
+  font-size: 15px;
+}
+.singleCard-styles .card .card-body .card-link:hover {
+  color: white;
+  background: #7eb98b;
+}
+.singleCard-styles .card .card-body .card-text {
+  font-size: 25px;
+}
+.singleCard-styles .card .card-img {
+  width: 10%;
+}
+.singleCard-styles .card .btn {
+  width: 20%;
+}

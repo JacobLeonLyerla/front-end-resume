@@ -1,13 +1,13 @@
-.body{
-min-height: 100vh;
+.body {
+  min-height: 100vh;
 }
 .App {
-  min-height:100vh;
- display:flex;
- flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   //******************************NAV BAR STYLES
   .navbar {
-    width :100%;
+    width: 100%;
     background: @main-color;
     .navbar-brand {
       color: white;
@@ -23,14 +23,11 @@ min-height: 100vh;
   margin-top: 0.2%;
   margin-bottom: 1%;
   padding-right: 1%;
-  padding-left:.3%;
-
-
-
+  padding-left: 0.3%;
 }
-.row{
-  margin-right:0px;
-  margin-left:0px;
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 //**************************************GENERAL COMPONENT STYLES
@@ -45,16 +42,15 @@ min-height: 100vh;
 //*************************************LEFT COMPONENT
 .nav-tabs {
   background: @accent-color;
-  .nav-link{
+  .nav-link {
     cursor: pointer;
   }
-  .row{
-    width:100%;
-   
-.col-md-12{
-   padding:0px;
-  }
-   
+  .row {
+    width: 100%;
+
+    .col-md-12 {
+      padding: 0px;
+    }
   }
 }
 
@@ -76,6 +72,23 @@ min-height: 100vh;
 
   .list-group-item {
     background: @secondary-color;
+  }
+  
+}
+.tech-container {
+  .list-techs {
+    border: 1px solid @secondary-color;
+    height: 71vh;
+    overflow: auto;
+  }
+  .prof-styles {
+    color: black;
+    background: @secondary-color;
+  }
+  .list-group-item {
+    font-size: 1.3rem;
+    background: white;
+    color: @main-color;
   }
 }
 .message-styles {
@@ -105,14 +118,18 @@ min-height: 100vh;
 }
 .leftProgress-styles {
   margin-top: 2%;
-  border-top:4px solid @secondary-color;
+  border-top: 4px solid @secondary-color;
   .progress-styles {
     margin-left: 1%;
   }
   .label-styles {
     display: none;
   }
+  
 }
+.prof-styles{
+width:100%
+  }
 //******************************************MIDDLE COMPONENT
 .card-title {
   font-size: 26px;
@@ -120,17 +137,16 @@ min-height: 100vh;
 .card-text {
   border-top: 2px solid @main-color;
   font-size: 20px;
-  text-align: justify
+  text-align: justify;
 }
-.card-img-top{
-  width:70%;
-  margin:0 auto;
+.card-img-top {
+  width: 70%;
+  margin: 0 auto;
   border-radius: 20px;
 }
 
 //*****************************************RIGHT COMPONENT
 .progress-styles {
-  
   font-size: 20px;
   .label-styles {
     font-size: 30px;
@@ -149,63 +165,121 @@ min-height: 100vh;
     background: @secondary-color;
   }
 }
-.prof-container{
-.prof-styles{
-  color:black;
-  background:@secondary-color;
-}
-.list-group-item{
-font-size: 1rem;
-background:white;
-color:@main-color;
-}
-
+.prof-container {
+  .list-items {
+    border: 1px solid @secondary-color;
+    height: 70.3vh;
+    overflow: auto;
+  }
+  .prof-styles {
+    color: black;
+    background: @secondary-color;
+  }
+  .list-group-item {
+    font-size: 1.3rem;
+    background: white;
+    color: @main-color;
+  }
 }
 
 //***********************************FOOTER COMPONENT
 .footer-styles {
-  width:100%;
+  width: 100%;
 
-  margin-top:auto;
-align-self: flex-end;
+  margin-top: auto;
+  align-self: flex-end;
   background: @fourth-color !important;
   border-radius: 10px;
   display: flex;
   justify-content: center;
-.nav-link{
-  color:white;
+  .nav-link {
+    color: white;
+  }
 }
-}
-
-   
-  
 
 //******************************PROJECT COMPONENT
 .progress-styles {
+  .fas{
+    color:@main-color;
+  }
+  .fas:hover{
+  color:@secondary-color
+  }
+  .projectContainer-styles{
+    display:flex;
+    justify-content: space-between;
+    
+    width:100%;
+margin:0 auto;
+margin-top:19%;
+height:60px;
+color:white;
+  }
   .card-styles {
+    .btn{
+    border-radius: 0px;
+    }
     margin-top: 0.5%;
     .card {
-      background: @secondary-color;
+      margin-top:10vh;
       color: black;
-      min-height: 400px;
+      min-height: 70vh;
       margin-bottom: 5%;
+      background-image: url("https://i.imgur.com/OPC28dr.png");
+       -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center; /* optional, center the image */
+      background-size: 100% 100%
+    }
+    .card2 {
+      background-image: url("https://i.imgur.com/JZmm1MC.png");
+      background-size: 100% 100%
+    }
+    .card3 {
+      background-image: url("https://i.imgur.com/ulJIhdz.png");
+      background-size: 100% 100%
     }
     .card-link {
-      color: cornflowerblue;
+      color: white;
     }
+    .gif{
+      background-image: url("../assets/test3.gif");
+      background-size: 100% 100%
+    } 
+ 
+  }
     .card-link:hover {
       color: white;
       background: @main-color;
     }
     .card-img {
       width: 60%;
+      background-size:     cover;                      /* <------ */
+      background-repeat:   no-repeat;
+      background-position: center center; 
+
     }
-  }
+   
+  
   .btn {
     width: 100%;
   }
+  .fa-play{
+    display:flex;
+    font-size:1.7rem;
+    margin-top:3vh;
+    margin-left:3vh;
+    width:5vh;
+  }
+  .fa-play:hover{
+    opacity: .5;
+  }
 }
 .singleCard-styles {
+  
   .card {
     background: @secondary-color;
     .card-body {

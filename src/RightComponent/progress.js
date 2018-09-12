@@ -7,6 +7,7 @@ const ProgressBars = () => {
     <div className="progress-styles prof-container">
       <ListGroup>
         <Label className="prof-styles">Proficiencies</Label>
+        <div className="list-items">
         <ListGroupItem>React.js</ListGroupItem>
         <ListGroupItem>JavaScript</ListGroupItem>
         <ListGroupItem>HTML/CSS</ListGroupItem>
@@ -22,6 +23,7 @@ const ProgressBars = () => {
         <ListGroupItem>SQL</ListGroupItem>
         <ListGroupItem>C++</ListGroupItem>
         <ListGroupItem>C</ListGroupItem>
+        </div>
       </ListGroup>
     </div>
   );
