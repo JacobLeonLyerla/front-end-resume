@@ -54,13 +54,16 @@
 .nav-tabs .row .col-md-12 {
   padding: 0px;
 }
-.contactLabel-styles {
-  font-size: 25px;
+.contactCard-styles {
+  background: #bedccf;
+}
+.contactCard-styles .contactLabel-styles {
+  font-size: 1.4rem;
   text-align: left;
   width: 100%;
 }
-.contactCard-styles {
-  background: #bedccf;
+.contactCard-styles .form-control {
+  font-size: 1rem;
 }
 .form-control {
   font-size: 25px;
@@ -131,6 +134,7 @@
   border-top: 2px solid #7eb98b;
   font-size: 20px;
   text-align: justify;
+  word-spacing: -1px;
 }
 .card-img-top {
   width: 70%;
@@ -176,10 +180,12 @@
   background: #c3e7ab !important;
   border-radius: 10px;
   display: flex;
+  align-items: flex-end;
   justify-content: center;
 }
 .footer-styles .nav-link {
-  color: white;
+  color: black;
+  font-size: 1.3rem;
 }
 .loading {
   margin-left: 25vw;

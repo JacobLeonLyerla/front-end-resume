@@ -60,14 +60,14 @@ const Project = props => {
               <div className="links">
                 <a className="link-styles" href={props.project.webpage}>
                   {" "}
-                  <ListGroupItem>{props.project.webpage}</ListGroupItem>
+                  <ListGroupItem>View Deployed Site</ListGroupItem>
                 </a>
                 <a className="link-styles" href={props.project.youtube} >{" "}
                
-                  <ListGroupItem>{props.project.youtube}</ListGroupItem>
+      <ListGroupItem>{props.project.youtube ==="No video yet"?(<div>Video Coming Soon</div>):(<div>View How it Was Made</div>)}</ListGroupItem>
              </a >
                 <a className="link-styles" href={props.project.github}>
-                  <ListGroupItem>{props.project.github}</ListGroupItem>
+                  <ListGroupItem>View The Code</ListGroupItem>
                 </a>
               </div>
             </ListGroup>{" "}

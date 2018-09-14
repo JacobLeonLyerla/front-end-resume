@@ -40,13 +40,13 @@
   background: @main-color;
 }
 //*************************************LEFT COMPONENT
-.contactList-styles{
-  .fab{
-    margin-right:3%;
-    font-size:2.5rem;
+.contactList-styles {
+  .fab {
+    margin-right: 3%;
+    font-size: 2.5rem;
   }
-  .list-group-item{
-    display:flex;
+  .list-group-item {
+    display: flex;
     justify-content: center;
   }
 }
@@ -63,14 +63,16 @@
     }
   }
 }
-
-.contactLabel-styles {
-  font-size: 25px;
-  text-align: left;
-  width: 100%;
-}
 .contactCard-styles {
   background: @secondary-color;
+  .contactLabel-styles {
+    font-size: 1.4rem;
+    text-align: left;
+    width: 100%;
+  }
+  .form-control{
+    font-size:1rem;
+  }
 }
 .form-control {
   font-size: 25px;
@@ -83,7 +85,6 @@
   .list-group-item {
     background: @secondary-color;
   }
-  
 }
 .tech-container {
   .list-techs {
@@ -136,11 +137,10 @@
   .label-styles {
     display: none;
   }
-  
 }
-.prof-styles{
-width:100%
-  }
+.prof-styles {
+  width: 100%;
+}
 //******************************************MIDDLE COMPONENT
 .card-title {
   font-size: 26px;
@@ -149,6 +149,7 @@ width:100%
   border-top: 2px solid @main-color;
   font-size: 20px;
   text-align: justify;
+  word-spacing:-1px;
 }
 .card-img-top {
   width: 70%;
@@ -196,144 +197,140 @@ width:100%
 //***********************************FOOTER COMPONENT
 .footer-styles {
   width: 100%;
-
   margin-top: auto;
   align-self: flex-end;
   background: @fourth-color !important;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+align-items: flex-end;
+justify-content: center;
   .nav-link {
-    color: white;
+    color:black;
+    font-size:1.3rem;
+    
   }
 }
 
 //******************************PROJECT COMPONENT
-.loading{
- margin-left:25vw;
- margin-top:25vh;
+.loading {
+  margin-left: 25vw;
+  margin-top: 25vh;
 }
 .progress-styles {
-  .links{
-font-size:1rem;
-color:@main-color;  
+  .links {
+    font-size: 1rem;
+    color: @main-color;
 
-.list-group-item{
-  background:white;
-}
-.link-styles{
-  color:@main-color;
-}
-.list-group-item:hover{
-  background:@main-color;
-  color:white;  
-}
-
-}
-
-  .fas{
-    color:@main-color;
+    .list-group-item {
+      background: white;
+    }
+    .link-styles {
+      color: @main-color;
+    }
+    .list-group-item:hover {
+      background: @main-color;
+      color: white;
+    }
   }
-  .fas:hover{
-  color:@secondary-color
+
+  .fas {
+    color: @main-color;
   }
-  .projectContainer-styles{
-    display:flex;
+  .fas:hover {
+    color: @secondary-color;
+  }
+  .projectContainer-styles {
+    display: flex;
     justify-content: space-between;
-    
-    width:100%;
-margin:0 auto;
-margin-top:19%;
-height:60px;
-color:white;
+
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 19%;
+    height: 60px;
+    color: white;
   }
   .card-styles {
-    .btn{
-    border-radius: 0px;
+    .btn {
+      border-radius: 0px;
     }
     margin-top: 0.5%;
     .card {
       color: black;
       min-height: 70vh;
       background-image: url("https://i.imgur.com/OPC28dr.png");
-       -webkit-background-size: cover;
+      -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; /* optional, center the image */
-      background-size: 100% 100%
+      background-size: 100% 100%;
     }
     .card2 {
       background-image: url("https://i.imgur.com/JZmm1MC.png");
-      background-size: 100% 100%
+      background-size: 100% 100%;
     }
     .card3 {
       background-image: url("https://i.imgur.com/ulJIhdz.png");
-      background-size: 100% 100%
+      background-size: 100% 100%;
     }
     .card-link {
       color: white;
     }
-    .gif1{
+    .gif1 {
       background-image: url("../assets/dungeonRace.gif");
-      background-size: 100% 100%
-    } 
-    .gif2{
+      background-size: 100% 100%;
+    }
+    .gif2 {
       background-image: url("../assets/checkmytone.gif");
-      background-size: 100% 100%
-    } 
- 
-    .gif3{
-      background-image: url("../assets/note.gif");
-      background-size: 100% 100%
-    } 
- 
- 
-  }
-    .card-link:hover {
-      color: white;
-      background: @main-color;
+      background-size: 100% 100%;
     }
-    .card-img {
-      width: 60%;
-      background-size:     cover;                      /* <------ */
-      background-repeat:   no-repeat;
-      background-position: center center; 
 
+    .gif3 {
+      background-image: url("../assets/note.gif");
+      background-size: 100% 100%;
     }
-   
-  
+  }
+  .card-link:hover {
+    color: white;
+    background: @main-color;
+  }
+  .card-img {
+    width: 60%;
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
   .btn {
     width: 100%;
   }
-  .fa-play{
-    color:@main-color;
-    display:flex;
-    font-size:2.5rem;
-    margin-top:3vh;
-    margin-left:3vh;
-    width:5vh;
+  .fa-play {
+    color: @main-color;
+    display: flex;
+    font-size: 2.5rem;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    width: 5vh;
   }
-  .fa-play:hover{
-    color:@main-color;
+  .fa-play:hover {
+    color: @main-color;
     filter: brightness(1.5);
   }
-  .fa-pause{
-    color:@main-color;
-    display:flex;
-    font-size:1.5rem;
-    margin-top:4vh;
-    margin-left:3vh;
-    width:5vh;
+  .fa-pause {
+    color: @main-color;
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 4vh;
+    margin-left: 3vh;
+    width: 5vh;
   }
-  .fa-pause:hover{
-    color:@main-color;
+  .fa-pause:hover {
+    color: @main-color;
     filter: brightness(1.5);
   }
 }
 .singleCard-styles {
-  
   .card {
     background: @secondary-color;
     .card-body {

@@ -7,7 +7,7 @@ const ContactInfo = () => {
     <ListGroup className="contactList-styles">
       <ListGroupItem>Email: Jacobleonlyerla@gmail.com</ListGroupItem>
       <ListGroupItem>Phone: +1 (928) 362-5877</ListGroupItem>{" "}
-      <ListGroupItem>Location: Phoenix, Arizona.</ListGroupItem>
+      <ListGroupItem>Location: Phoenix, Arizona</ListGroupItem>
       <a
         style={{ color: "white", textDecoration: "none" }}
         href="https://github.com/JacobLeonLyerla"
