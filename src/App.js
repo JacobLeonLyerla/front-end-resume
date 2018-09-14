@@ -47,7 +47,7 @@ class App extends Component {
         index = this.state.projects.length - 1;
       }
     }
-    this.setState({ index });
+    this.setState({ index, gif:"" });
   };
   toggleGif=(gif)=>{
       this.setState({ gif, });
