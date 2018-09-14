@@ -34,6 +34,14 @@
 .btn:hover {
   background: #7eb98b;
 }
+.contactList-styles .fab {
+  margin-right: 3%;
+  font-size: 2.5rem;
+}
+.contactList-styles .list-group-item {
+  display: flex;
+  justify-content: center;
+}
 .nav-tabs {
   background: #edebc9;
 }
@@ -173,6 +181,10 @@
 .footer-styles .nav-link {
   color: white;
 }
+.loading {
+  margin-left: 25vw;
+  margin-top: 25vh;
+}
 .progress-styles .links {
   font-size: 1rem;
   color: #7eb98b;
@@ -232,8 +244,16 @@
 .progress-styles .card-styles .card-link {
   color: white;
 }
-.progress-styles .card-styles .gif {
+.progress-styles .card-styles .gif1 {
   background-image: url("../assets/dungeonRace.gif");
+  background-size: 100% 100%;
+}
+.progress-styles .card-styles .gif2 {
+  background-image: url("../assets/checkmytone.gif");
+  background-size: 100% 100%;
+}
+.progress-styles .card-styles .gif3 {
+  background-image: url("../assets/note.gif");
   background-size: 100% 100%;
 }
 .progress-styles .card-link:hover {
@@ -251,14 +271,28 @@
   width: 100%;
 }
 .progress-styles .fa-play {
+  color: #7eb98b;
   display: flex;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   margin-top: 3vh;
   margin-left: 3vh;
   width: 5vh;
 }
 .progress-styles .fa-play:hover {
-  opacity: .5;
+  color: #7eb98b;
+  filter: brightness(1.5);
+}
+.progress-styles .fa-pause {
+  color: #7eb98b;
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 4vh;
+  margin-left: 3vh;
+  width: 5vh;
+}
+.progress-styles .fa-pause:hover {
+  color: #7eb98b;
+  filter: brightness(1.5);
 }
 .singleCard-styles .card {
   background: #bedccf;

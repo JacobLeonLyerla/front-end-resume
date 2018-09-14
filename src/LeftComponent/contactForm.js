@@ -85,6 +85,13 @@ class ContactForm extends Component {
      
       <Card className="contactCard-styles">
         <CardBody>
+        <Label className="contactLabel-styles">Name</Label>
+          <Input
+            onChange={this.handleInputChange}
+            placeholder="Name..."
+            value={this.state.company}
+            name="company"
+          />
           <Label className="contactLabel-styles">Email</Label>
           <Input
           // so when the input is changed it calls handleInputChange, that sets the chnge on state.
@@ -102,13 +109,7 @@ class ContactForm extends Component {
             value={this.state.phone}
             name="phone"
           />
-          <Label className="contactLabel-styles">Company</Label>
-          <Input
-            onChange={this.handleInputChange}
-            placeholder="Company..."
-            value={this.state.company}
-            name="company"
-          />
+     
           <Label className="contactLabel-styles">Leave a message here</Label>
           <Input
             onChange={this.handleInputChange}

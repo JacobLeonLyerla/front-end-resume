@@ -9,17 +9,17 @@ const Footer = () => {
 
       <Nav>
         <NavItem>
-          <NavLink href="http://linkedin.com">
+          <NavLink href="https://www.linkedin.com/in/jacob-lyerla">
             <i class="fab fa-linkedin" />
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="http://www.twitter.com">
+          <NavLink href="https://twitter.com/JLLCoding">
             <i class="fab fa-twitter-square" />
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="http://youtube.com">
+          <NavLink href="https://www.youtube.com/channel/UCDaJ3jOVnk67LG0rbky1RGg">
             <i class="fab fa-youtube-square" />
           </NavLink>
         </NavItem>

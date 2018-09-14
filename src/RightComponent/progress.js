@@ -12,13 +12,15 @@ const ProgressBars = () => {
         <ListGroupItem>JavaScript</ListGroupItem>
         <ListGroupItem>HTML/CSS</ListGroupItem>
         <ListGroupItem>LESS</ListGroupItem>
+        <ListGroupItem>SASS</ListGroupItem>
         <ListGroupItem>MongoDB</ListGroupItem>
         <ListGroupItem>Mongoose</ListGroupItem>
         <ListGroupItem>Node.js</ListGroupItem>
-        <ListGroupItem>Expess</ListGroupItem>
+        <ListGroupItem>Expess.js</ListGroupItem>
         <ListGroupItem>Redux</ListGroupItem>
         <ListGroupItem>React Context</ListGroupItem>
         <ListGroupItem>Reactstrap/Bootstrap</ListGroupItem>
+        <ListGroupItem>Animate.css</ListGroupItem>
         <ListGroupItem>Python</ListGroupItem>
         <ListGroupItem>SQL</ListGroupItem>
         <ListGroupItem>C++</ListGroupItem>

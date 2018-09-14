@@ -40,6 +40,16 @@
   background: @main-color;
 }
 //*************************************LEFT COMPONENT
+.contactList-styles{
+  .fab{
+    margin-right:3%;
+    font-size:2.5rem;
+  }
+  .list-group-item{
+    display:flex;
+    justify-content: center;
+  }
+}
 .nav-tabs {
   background: @accent-color;
   .nav-link {
@@ -95,6 +105,7 @@
   height: 300px;
 }
 //******************************************MODAL CONTENT
+
 .modal-content {
   margin-top: 40%;
   background: @third-color;
@@ -198,6 +209,10 @@ width:100%
 }
 
 //******************************PROJECT COMPONENT
+.loading{
+ margin-left:25vw;
+ margin-top:25vh;
+}
 .progress-styles {
   .links{
 font-size:1rem;
@@ -260,10 +275,20 @@ color:white;
     .card-link {
       color: white;
     }
-    .gif{
+    .gif1{
       background-image: url("../assets/dungeonRace.gif");
       background-size: 100% 100%
     } 
+    .gif2{
+      background-image: url("../assets/checkmytone.gif");
+      background-size: 100% 100%
+    } 
+ 
+    .gif3{
+      background-image: url("../assets/note.gif");
+      background-size: 100% 100%
+    } 
+ 
  
   }
     .card-link:hover {
@@ -283,14 +308,28 @@ color:white;
     width: 100%;
   }
   .fa-play{
+    color:@main-color;
     display:flex;
-    font-size:1.7rem;
+    font-size:2.5rem;
     margin-top:3vh;
     margin-left:3vh;
     width:5vh;
   }
   .fa-play:hover{
-    opacity: .5;
+    color:@main-color;
+    filter: brightness(1.5);
+  }
+  .fa-pause{
+    color:@main-color;
+    display:flex;
+    font-size:1.5rem;
+    margin-top:4vh;
+    margin-left:3vh;
+    width:5vh;
+  }
+  .fa-pause:hover{
+    color:@main-color;
+    filter: brightness(1.5);
   }
 }
 .singleCard-styles {

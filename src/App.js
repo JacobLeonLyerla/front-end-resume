@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
 import "./css/index.css";
-import { Row, Col } from "reactstrap";
+import { Row,  } from "reactstrap";
 import Nav from "./Home/nav";
 import LeftPanel from "./LeftComponent/left";
 import MiddlePanel from "./MiddleComponent/middle";
@@ -11,7 +11,6 @@ import RightPanel from "./RightComponent/right";
 import Footer from "./Footer/footer";
 import Projects from "./Project/listProjects";
 import Project from "./Project/project";
-import { directive } from "babel-types";
 class App extends Component {
   // assign state and name props
   state = {
@@ -50,12 +49,15 @@ class App extends Component {
     }
     this.setState({ index });
   };
-  toggleGif = (gif)=> {
-    this.setState({ gif });
+  toggleGif=(gif)=>{
+      this.setState({ gif, });
   }
-  unToggleGif =(gif)=> {
-    this.setState({ gif });
-  }
+  // toggleGif = (gif)=> {
+  //   this.setState({ gif });
+  // }
+  // unToggleGif =(gif)=> {
+  //   this.setState({ gif });
+  // }
   render() {
     console.log(this.state.index);
     return (

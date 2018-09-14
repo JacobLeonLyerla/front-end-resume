@@ -9,28 +9,34 @@ import {
   ListGroupItem,
   CardLink
 } from "reactstrap";
+import Bubbles from "./loading"
 
-// import Link from react-router-dom
-import { Link } from "react-router-dom";
 // set up statless component
 
 const Project = props => {
-  console.log(props.gif);
   return (
     <Fragment>
+      {props.project === undefined ? <Bubbles/>:(
       <Col md="8" lg="8" className="progress-styles">
         {/* map over our return for each object in our array */}
         <Row>
           {/* {props.project.map(project => ( */}
           <Col sm="12" md="12" lg="6" xl="12" className="card-styles">
             {/* set up a Link for the card */}
-            <Card className={`card${props.index + 1} ${props.gif} `} id="test">
-              <i
-                onMouseLeave={() => props.unToggle("static")}
-                onMouseEnter={() => props.toggle("gif")}
+            <Card className={`card${props.index + 1} ${props.gif}${props.index +1} `} id="test">
+             <div>{props.gif ===""?(
+
+                  <i
+                onClick={() => props.toggle("gif")}
                 id="test2"
                 className="fas fa-play playgif"
               />
+              ):(     <i
+                onClick={() => props.toggle("")}
+                id="test2"
+                className="fas fa-pause playgif"
+              />)}</div> 
+            
               <CardBody>
                 <div />
 
@@ -68,6 +74,7 @@ const Project = props => {
           </Col>
         </Row>
       </Col>
+  )}
     </Fragment>
   );
 };

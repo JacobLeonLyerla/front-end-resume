@@ -1,19 +1,30 @@
 import React from "react";
-import { ListGroup, ListGroupItem ,Col} from "reactstrap";
+import { ListGroup, ListGroupItem, Col } from "reactstrap";
 const ContactInfo = () => {
   return (
     // this is a list group containing all the info in my contact tab, the styling is given the bootstrap css file, i added into the index.
-  
-      <ListGroup>
-        <ListGroupItem>Email: umasour@yahoo.com</ListGroupItem>
-        <ListGroupItem>Phone: 1-555-555-5555</ListGroupItem>
+
+    <ListGroup className="contactList-styles">
+      <ListGroupItem>Email: Jacobleonlyerla@gmail.com</ListGroupItem>
+      <ListGroupItem>Phone: +1 (928) 362-5877</ListGroupItem>{" "}
+      <ListGroupItem>Location: Phoenix, Arizona.</ListGroupItem>
+      <a
+        style={{ color: "white", textDecoration: "none" }}
+        href="https://github.com/JacobLeonLyerla"
+      >
         <ListGroupItem>
-          Github: https://github.com/JacobLeonLyerla{" "}
+        <i class="fab fa-github-square" /> JacobLeonLyerla
         </ListGroupItem>
-        <ListGroupItem>Linkedin: https://linkedin.com</ListGroupItem>
-        <ListGroupItem>Twitter: https://twitter.com</ListGroupItem>
-      </ListGroup>
-    
+      </a>
+      <a
+        style={{ color: "white", textDecoration: "none" }}
+        href="https://www.linkedin.com/in/jacob-lyerla"
+      >
+        <ListGroupItem>
+        <i class="fab fa-linkedin " /><div>Jacob-Lyerla</div>
+        </ListGroupItem>
+      </a>
+    </ListGroup>
   );
 };
 export default ContactInfo;
