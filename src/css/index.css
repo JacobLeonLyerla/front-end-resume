@@ -173,6 +173,20 @@
 .footer-styles .nav-link {
   color: white;
 }
+.progress-styles .links {
+  font-size: 1rem;
+  color: #7eb98b;
+}
+.progress-styles .links .list-group-item {
+  background: white;
+}
+.progress-styles .links .link-styles {
+  color: #7eb98b;
+}
+.progress-styles .links .list-group-item:hover {
+  background: #7eb98b;
+  color: white;
+}
 .progress-styles .fas {
   color: #7eb98b;
 }
@@ -195,10 +209,8 @@
   border-radius: 0px;
 }
 .progress-styles .card-styles .card {
-  margin-top: 10vh;
   color: black;
   min-height: 70vh;
-  margin-bottom: 5%;
   background-image: url("https://i.imgur.com/OPC28dr.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,7 +233,7 @@
   color: white;
 }
 .progress-styles .card-styles .gif {
-  background-image: url("../assets/test3.gif");
+  background-image: url("../assets/dungeonRace.gif");
   background-size: 100% 100%;
 }
 .progress-styles .card-link:hover {
