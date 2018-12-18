@@ -247,6 +247,10 @@
   background-image: url("https://i.imgur.com/ulJIhdz.png");
   background-size: 100% 100%;
 }
+.progress-styles .card-styles .card4 {
+  background-image: url("../assets/dreamtrekking.png");
+  background-size: 100% 100%;
+}
 .progress-styles .card-styles .card-link {
   color: white;
 }
@@ -260,6 +264,10 @@
 }
 .progress-styles .card-styles .gif3 {
   background-image: url("../assets/note.gif");
+  background-size: 100% 100%;
+}
+.progress-styles .card-styles .gif4 {
+  background-image: url("../assets/dreamtrekking.png");
   background-size: 100% 100%;
 }
 .progress-styles .card-link:hover {
