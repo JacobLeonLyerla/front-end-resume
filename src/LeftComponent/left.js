@@ -48,22 +48,20 @@ class LeftPanel extends Component {
   //   axios
   //   .get("https://jacob-lyerla-resume.herokuapp.com/projects")
   //   .then(response => {
-  //     console.log(response.data)
   //     this.setState({ project: response.data });
   //   })
   //   .catch(err => {
-  //     console.log(err);
   //   });
   // }
   renderTech=()=>{
-    console.log(this.props.project)
 return this.props.project.map((project,index) =>{
-  console.log(project)
-  if(this.props.index === index){
+  if(this.props.index === project.title -1){
     return project.technologies.map(tech=>{
+    
       return<ListGroupItem>{tech}</ListGroupItem>
     })
   }
+
 })
    
     
