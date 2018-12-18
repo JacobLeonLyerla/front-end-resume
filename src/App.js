@@ -20,7 +20,6 @@ class App extends Component {
   };
   // life cycle method component did mount
   componentDidMount() {
-    console.log("set data from heroku onto state.");
     this.getProject();
   }
   // axios get request
@@ -31,7 +30,6 @@ class App extends Component {
         this.setState({ projects: response.data });
       })
       .catch(err => {
-        console.log(err);
       });
       
   };
@@ -60,7 +58,6 @@ class App extends Component {
   //   this.setState({ gif });
   // }
   render() {
-    console.log(this.state.projects[this.state.index])
     return (
       <div className="App">
         {/* rendering the Nav component,
@@ -78,7 +75,7 @@ using a row and columns to size them correctly */}
             path="/"
             render={props => (
               <LeftPanel
-                project={this.state.projects[this.state.index]}
+                project={this.state.projects}
                 index={this.state.index}
               />
             )}
