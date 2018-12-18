@@ -55,7 +55,8 @@ class LeftPanel extends Component {
   // }
   renderTech=()=>{
 return this.props.project.map((project,index) =>{
-  if(this.props.index === project.title -1){
+
+  if(this.props.index === index){
     return project.technologies.map(tech=>{
     
       return<ListGroupItem>{tech}</ListGroupItem>

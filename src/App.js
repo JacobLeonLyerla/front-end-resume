@@ -58,6 +58,7 @@ class App extends Component {
   //   this.setState({ gif });
   // }
   render() {
+    console.log(this.state.projects)
     return (
       <div className="App">
         {/* rendering the Nav component,
