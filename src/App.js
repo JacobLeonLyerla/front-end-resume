@@ -33,6 +33,7 @@ class App extends Component {
       .catch(err => {
         console.log(err);
       });
+      
   };
   incresseIndex = direction => {
     let index = 0;
@@ -59,7 +60,7 @@ class App extends Component {
   //   this.setState({ gif });
   // }
   render() {
-    console.log(this.state.index);
+    console.log(this.state.projects[this.state.index])
     return (
       <div className="App">
         {/* rendering the Nav component,
@@ -77,7 +78,7 @@ using a row and columns to size them correctly */}
             path="/"
             render={props => (
               <LeftPanel
-                project={this.state.projects}
+                project={this.state.projects[this.state.index]}
                 index={this.state.index}
               />
             )}
