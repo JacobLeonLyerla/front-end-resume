@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
 import "./css/index.css";
-import { Row,  } from "reactstrap";
+import { Row } from "reactstrap";
 import Nav from "./Home/nav";
 import LeftPanel from "./LeftComponent/left";
 import MiddlePanel from "./MiddleComponent/middle";
@@ -29,9 +29,7 @@ class App extends Component {
       .then(response => {
         this.setState({ projects: response.data });
       })
-      .catch(err => {
-      });
-      
+      .catch(err => {});
   };
   incresseIndex = direction => {
     let index = 0;
@@ -46,11 +44,11 @@ class App extends Component {
         index = this.state.projects.length - 1;
       }
     }
-    this.setState({ index, gif:"" });
+    this.setState({ index, gif: "" });
   };
-  toggleGif=(gif)=>{
-      this.setState({ gif, });
-  }
+  toggleGif = gif => {
+    this.setState({ gif });
+  };
   // toggleGif = (gif)=> {
   //   this.setState({ gif });
   // }
@@ -58,7 +56,7 @@ class App extends Component {
   //   this.setState({ gif });
   // }
   render() {
-    console.log(this.state.projects)
+    console.log(this.state.projects);
     return (
       <div className="App">
         {/* rendering the Nav component,
