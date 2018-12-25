@@ -13,7 +13,7 @@ const ContactInfo = () => {
         href="https://github.com/JacobLeonLyerla"
       >
         <ListGroupItem>
-        <i class="fab fa-github-square" /> JacobLeonLyerla
+          <i class="fab fa-github-square" /> JacobLeonLyerla
         </ListGroupItem>
       </a>
       <a
@@ -21,7 +21,8 @@ const ContactInfo = () => {
         href="https://www.linkedin.com/in/jacob-lyerla"
       >
         <ListGroupItem>
-        <i class="fab fa-linkedin " /><div>Jacob-Lyerla</div>
+          <i class="fab fa-linkedin " />
+          <div>Jacob-Lyerla</div>
         </ListGroupItem>
       </a>
     </ListGroup>

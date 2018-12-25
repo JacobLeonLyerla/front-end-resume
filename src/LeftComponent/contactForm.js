@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 //importing in axios
 import axios from "axios";
@@ -28,7 +27,7 @@ class ContactForm extends Component {
       // setting the modal to false so it does not pop up the component is rendered.
       modal: false
     };
-// binding the toggle to this class
+    // binding the toggle to this class
     this.toggle = this.toggle.bind(this);
   }
   //toggle function that changed the state of the modal.
@@ -43,21 +42,22 @@ class ContactForm extends Component {
     //these if's check if the input is NOT empty,
     if (this.state.email !== "") {
       // if they are not empty then set the message objects key of email is set to the email on the state,
-      message.email = this.state.email;    }
+      message.email = this.state.email;
+    }
     if (this.state.phone !== "") {
-      message.phone = this.state.phone;    }
+      message.phone = this.state.phone;
+    }
     if (this.state.company !== "") {
       message.company = this.state.company;
     }
     if (this.state.message !== "") {
       message.message = this.state.message;
     }
- 
-    
-// here we make a axios request
+
+    // here we make a axios request
     axios
-    // the request is a post, and we pass in the object that we created and added in the state values,
-    // this request is made to my herokuapp, if it's a little slow it's due to my heroku dyno being asleep, but it should run correctly after waking.
+      // the request is a post, and we pass in the object that we created and added in the state values,
+      // this request is made to my herokuapp, if it's a little slow it's due to my heroku dyno being asleep, but it should run correctly after waking.
       .post("https://jacob-lyerla-resume.herokuapp.com/messages", message)
       .then(response => {
         // this toggles the modal when you successfully submit an object
@@ -82,10 +82,9 @@ class ContactForm extends Component {
   };
   render() {
     return (
-     
       <Card className="contactCard-styles">
         <CardBody>
-        <Label className="contactLabel-styles">Name</Label>
+          <Label className="contactLabel-styles">Name</Label>
           <Input
             onChange={this.handleInputChange}
             placeholder="Name..."
@@ -94,7 +93,7 @@ class ContactForm extends Component {
           />
           <Label className="contactLabel-styles">Email</Label>
           <Input
-          // so when the input is changed it calls handleInputChange, that sets the chnge on state.
+            // so when the input is changed it calls handleInputChange, that sets the chnge on state.
             onChange={this.handleInputChange}
             //place holder text for when notihng is inside the input
             placeholder="Email..."
@@ -109,7 +108,7 @@ class ContactForm extends Component {
             value={this.state.phone}
             name="phone"
           />
-     
+
           <Label className="contactLabel-styles">Leave a message here</Label>
           <Input
             onChange={this.handleInputChange}
@@ -124,19 +123,20 @@ class ContactForm extends Component {
           <Button onClick={() => this.sendMessage()}>Send Message</Button>
           {/* this is the modal, everything is being set up here  */}
           <Modal
-          // checking if the modal is open this wil return true of false
+            // checking if the modal is open this wil return true of false
             isOpen={this.state.modal}
             // setting the toggle function on the Modal for changing the toggle props
             toggle={this.toggle}
             // setting the class name to the className on props
             className={this.props.className}
           >
-          {/* this is the modal header, it will be displayed above the body */}
+            {/* this is the modal header, it will be displayed above the body */}
             <ModalHeader toggle={this.toggle}>Message Sent</ModalHeader>
             {/* the modal body is the main text of the modal */}
             <ModalBody>
-              Thank you for taking the time to contact me, i will be sure to get back to you.
-              Also if you have any feedback about my resume, please let me know.
+              Thank you for taking the time to contact me, i will be sure to get
+              back to you. Also if you have any feedback about my resume, please
+              let me know.
             </ModalBody>
             <ModalFooter>
               {/* the modal button is set up and i gave it it's own class to style with,
@@ -144,7 +144,6 @@ class ContactForm extends Component {
               <Button className="modalbutton-styles" onClick={this.toggle}>
                 Close
               </Button>
-            
             </ModalFooter>
           </Modal>
         </CardBody>
