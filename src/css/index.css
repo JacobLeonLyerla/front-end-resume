@@ -78,11 +78,6 @@
 .list-group .list-group-item {
   background: #73CDE3;
 }
-.tech-container .list-techs {
-  border: 1px solid #73CDE3;
-  height: 71vh;
-  overflow: auto;
-}
 .tech-container .prof-styles {
   color: black;
   background: #73CDE3;
@@ -357,5 +352,9 @@
   font-size: 3vw;
 }
 .my-info {
+  width: 100%;
   background: #2D83AC;
+}
+.projects-new {
+  max-height: 100vh;
 }
