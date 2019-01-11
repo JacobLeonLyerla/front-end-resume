@@ -7,10 +7,13 @@
   flex-direction: column;
   //******************************NAV BAR STYLES
   .navbar {
+    padding-bottom:0;
+    padding-top:0;
     width: 100%;
     background: @main-color;
     .navbar-brand {
       color: white;
+      font-size:2.6vw;
     }
     .nav-link {
       color: white;
@@ -20,7 +23,7 @@
 //**************************************COMPONENTS STYLES
 
 .component-styles {
-  margin-top: 0.2%;
+max-height: 55.5vh;
   margin-bottom: 1%;
   padding-right: 1%;
   padding-left: 0.3%;
@@ -132,7 +135,7 @@
   margin-top: 2%;
   border-top: 4px solid @secondary-color;
   .progress-styles {
-    margin-left: 1%;
+padding:0;
   }
   .label-styles {
     display: none;
@@ -142,6 +145,9 @@
   width: 100%;
 }
 //******************************************MIDDLE COMPONENT
+.progress-styles {
+  padding:0;
+    }
 .card-title {
   font-size: 26px;
 }
@@ -180,7 +186,7 @@
 .prof-container {
   .list-items {
     border: 1px solid @secondary-color;
-    height: 70.3vh;
+    height: 52.4vh;
     overflow: auto;
   }
   .prof-styles {
@@ -253,7 +259,7 @@ justify-content: center;
     .btn {
       border-radius: 0px;
     }
-    margin-top: 0.5%;
+  
     .card {
       color: black;
       min-height: 70vh;
@@ -296,7 +302,7 @@ justify-content: center;
       background-size: 100% 100%;
     }
      .gif4 {
-      background-image: url("../assets/dreamtrekking.png");
+      background-image: url("../assets/dreamtrekking.gif");
       background-size: 100% 100%;
     }
   }
@@ -366,6 +372,33 @@ justify-content: center;
     }
   }
 }
+.list-tech{
+  padding: 0px;
+  
+
+.list-group-item{
+  font-size:1.4vw;
+}
+}
+.card-styles{
+  padding:0;
+  margin-top: 0px;}
+  .about-me{
+    display:flex;
+    flex-direction: row;
+  }
+  .selfie{
+    max-height: 20vw;
+    max-width: 20vw;
+  }
+  .fa-angle-down{
+    margin:0 auto;
+    color:white;
+    font-size:3vw;
+  }
+  .my-info{
+    background:@main-color;
+  }
 //**************************VARIABLES
 @main-color: #7eb98b;
 @secondary-color: #bedccf;
