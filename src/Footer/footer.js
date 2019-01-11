@@ -9,6 +9,22 @@ const Footer = () => {
 
       <Nav>
         <NavItem>
+          <NavLink>
+        <i class="fas fa-map-marker-alt"> Phoenix,AZ</i>
+        </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink>
+          <i class="fas fa-phone-square"> (928) 362-5877</i>
+        </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink>
+        <i class="fas fa-envelope-square"> Jacobleonlyerla@gmail.com</i>
+        </NavLink>
+        </NavItem>
+        <NavItem>
+          
           <NavLink href="https://www.linkedin.com/in/jacob-lyerla">
             <i class="fab fa-linkedin" />
           </NavLink>
