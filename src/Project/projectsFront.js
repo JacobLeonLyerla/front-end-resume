@@ -18,16 +18,17 @@ const Project = props => {
   return (
     <Fragment>
     {props.project ?(
-        <Row>
-            <Col md="3" className="list-tech">
+        <Row className="projects-new">
+            <Col md="3" className="list-tech"><ListGroup  flush>
             {props.project.technologies.map(project=>(
 
-                           <ListGroup  flush>
+                           
         <ListGroupItem >{project}</ListGroupItem>
   
-      </ListGroup>
+    
             ))}
- 
+            
+   </ListGroup>
             </Col>
        
       {props.project === undefined ? <Bubbles/>:(
@@ -88,8 +89,10 @@ const Project = props => {
           </Col>
         </Row>
       </Col>
+              
+
   )}
-  </Row>):(<div></div>) }</Fragment>
+   </Row>):(<div></div>) }</Fragment>
   );
 };
 // export our component
