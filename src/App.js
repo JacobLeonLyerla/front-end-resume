@@ -85,7 +85,6 @@ class App extends Component {
           />
         {/* rendering the left, middle and right components,
 using a row and columns to size them correctly */}
-         <div className="my-info"><i class="fas fa-angle-down"></i></div>  
         <Row className="component-styles">
              <Route exact path="/" component={RightPanel} />
           <Route exact path="/" component={MiddlePanel} />
