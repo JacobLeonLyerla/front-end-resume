@@ -10,7 +10,7 @@
   padding-bottom: 0;
   padding-top: 0;
   width: 100%;
-  background: #7eb98b;
+  background: #2D83AC;
 }
 .App .navbar .navbar-brand {
   color: white;
@@ -20,7 +20,6 @@
   color: white;
 }
 .component-styles {
-  max-height: 55.5vh;
   margin-bottom: 1%;
   padding-right: 1%;
   padding-left: 0.3%;
@@ -35,7 +34,7 @@
   border: none;
 }
 .btn:hover {
-  background: #7eb98b;
+  background: #2D83AC;
 }
 .contactList-styles .fab {
   margin-right: 3%;
@@ -58,7 +57,7 @@
   padding: 0px;
 }
 .contactCard-styles {
-  background: #bedccf;
+  background: #73CDE3;
 }
 .contactCard-styles .contactLabel-styles {
   font-size: 1.4rem;
@@ -77,21 +76,21 @@
   font-size: 25px;
 }
 .list-group .list-group-item {
-  background: #bedccf;
+  background: #73CDE3;
 }
 .tech-container .list-techs {
-  border: 1px solid #bedccf;
+  border: 1px solid #73CDE3;
   height: 71vh;
   overflow: auto;
 }
 .tech-container .prof-styles {
   color: black;
-  background: #bedccf;
+  background: #73CDE3;
 }
 .tech-container .list-group-item {
   font-size: 1.3rem;
   background: white;
-  color: #7eb98b;
+  color: #2D83AC;
 }
 .message-styles {
   height: 300px;
@@ -119,7 +118,7 @@
 }
 .leftProgress-styles {
   margin-top: 2%;
-  border-top: 4px solid #bedccf;
+  border-top: 4px solid #73CDE3;
 }
 .leftProgress-styles .progress-styles {
   padding: 0;
@@ -137,7 +136,7 @@
   font-size: 26px;
 }
 .card-text {
-  border-top: 2px solid #7eb98b;
+  border-top: 2px solid #2D83AC;
   font-size: 20px;
   text-align: justify;
   word-spacing: -1px;
@@ -157,33 +156,33 @@
   width: 100%;
   background: #edebc9;
   padding-bottom: 1%;
-  border-bottom: 2px solid #bedccf;
+  border-bottom: 2px solid #73CDE3;
 }
 .progress-styles .text-left {
   font-size: 25px;
 }
 .progress-styles .progress-bar {
-  background: #bedccf;
+  background: #73CDE3;
 }
 .prof-container .list-items {
-  border: 1px solid #bedccf;
-  height: 52.4vh;
+  border: 1px solid #73CDE3;
+  height: 85.1vh;
   overflow: auto;
 }
 .prof-container .prof-styles {
   color: black;
-  background: #bedccf;
+  background: #73CDE3;
 }
 .prof-container .list-group-item {
   font-size: 1.3rem;
   background: white;
-  color: #7eb98b;
+  color: #2D83AC;
 }
 .footer-styles {
   width: 100%;
   margin-top: auto;
   align-self: flex-end;
-  background: #c3e7ab !important;
+  background: #B2D1DE !important;
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
@@ -199,23 +198,23 @@
 }
 .progress-styles .links {
   font-size: 1rem;
-  color: #7eb98b;
+  color: #2D83AC;
 }
 .progress-styles .links .list-group-item {
   background: white;
 }
 .progress-styles .links .link-styles {
-  color: #7eb98b;
+  color: #2D83AC;
 }
 .progress-styles .links .list-group-item:hover {
-  background: #7eb98b;
+  background: #2D83AC;
   color: white;
 }
 .progress-styles .fas {
-  color: #7eb98b;
+  color: #2D83AC;
 }
 .progress-styles .fas:hover {
-  color: #bedccf;
+  color: #73CDE3;
 }
 .progress-styles .projectContainer-styles {
   display: flex;
@@ -275,7 +274,7 @@
 }
 .progress-styles .card-link:hover {
   color: white;
-  background: #7eb98b;
+  background: #2D83AC;
 }
 .progress-styles .card-img {
   width: 60%;
@@ -288,7 +287,7 @@
   width: 100%;
 }
 .progress-styles .fa-play {
-  color: #7eb98b;
+  color: #2D83AC;
   display: flex;
   font-size: 2.5rem;
   margin-top: 3vh;
@@ -296,11 +295,11 @@
   width: 5vh;
 }
 .progress-styles .fa-play:hover {
-  color: #7eb98b;
+  color: #2D83AC;
   filter: brightness(1.5);
 }
 .progress-styles .fa-pause {
-  color: #7eb98b;
+  color: #2D83AC;
   display: flex;
   font-size: 1.5rem;
   margin-top: 4vh;
@@ -308,11 +307,11 @@
   width: 5vh;
 }
 .progress-styles .fa-pause:hover {
-  color: #7eb98b;
+  color: #2D83AC;
   filter: brightness(1.5);
 }
 .singleCard-styles .card {
-  background: #bedccf;
+  background: #73CDE3;
 }
 .singleCard-styles .card .card-body .card-title {
   font-size: 50px;
@@ -323,7 +322,7 @@
 }
 .singleCard-styles .card .card-body .card-link:hover {
   color: white;
-  background: #7eb98b;
+  background: #2D83AC;
 }
 .singleCard-styles .card .card-body .card-text {
   font-size: 25px;
@@ -358,5 +357,5 @@
   font-size: 3vw;
 }
 .my-info {
-  background: #7eb98b;
+  background: #2D83AC;
 }
