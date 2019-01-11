@@ -10,7 +10,8 @@ import MiddlePanel from "./MiddleComponent/middle";
 import RightPanel from "./RightComponent/right";
 import Footer from "./Footer/footer";
 import Projects from "./Project/listProjects";
-import Project from "./Project/project";
+import Project from "./Project/projectsFront";
+import Left from "./LeftComponent/left"
 class App extends Component {
   // assign state and name props
   state = {
@@ -56,7 +57,7 @@ class App extends Component {
   //   this.setState({ gif });
   // }
   render() {
-    console.log(this.state.projects);
+
     return (
       <div className="App">
         {/* rendering the Nav component,
@@ -65,30 +66,13 @@ class App extends Component {
 
         {/* set sup routing and pass in our state */}
         <Route path="/" component={Nav} />
+      
 
-        {/* rendering the left, middle and right components,
-using a row and columns to size them correctly */}
-
-        <Row className="component-styles">
-          <Route
+        <Route
+            exact
             path="/"
             render={props => (
-              <LeftPanel
-                project={this.state.projects}
-                index={this.state.index}
-              />
-            )}
-          />
-
-          <Route exact path="/" component={MiddlePanel} />
-
-          <Route exact path="/" component={RightPanel} />
-
-          <Route
-            exact
-            path="/projects"
-            render={props => (
-              <Projects
+              <Project
                 {...props}
                 project={this.state.projects[this.state.index]}
                 index={this.state.index}
@@ -99,7 +83,13 @@ using a row and columns to size them correctly */}
               />
             )}
           />
-          <Route exact path="/projects/:id" component={Project} />
+        {/* rendering the left, middle and right components,
+using a row and columns to size them correctly */}
+         <div className="my-info"><i class="fas fa-angle-down"></i></div>  
+        <Row className="component-styles">
+             <Route exact path="/" component={RightPanel} />
+          <Route exact path="/" component={MiddlePanel} />
+
         </Row>
         {/* Rendering the footer at the bottom of the page. */}
         <Footer />
