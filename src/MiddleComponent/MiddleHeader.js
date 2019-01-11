@@ -3,9 +3,10 @@ import { Card, CardImg, CardText, CardBody, CardTitle, Col } from "reactstrap";
 import selfie from "../assets/selfie.jpg"
 const Header = () => {
   return (
-    <Col md="4" lg="4">
+    <Col md="8" lg="8">
     <Card>
       <CardImg
+      className="selfie"
         top
         width="100%"
         src={selfie}
