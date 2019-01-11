@@ -11,6 +11,11 @@ stay consistant */}
       <Nav className="ml-auto" navbar>
         {/* each item has a ref to the site that i want to link to, and so clicking on that will redirect you. */}
         <NavItem>
+
+         <NavLink onClick={()=>window.scrollTo(0,document.body.scrollHeight)
+}>About</NavLink>  
+ 
+        </NavItem> <NavItem>
           <NavLink href="https://www.linkedin.com/in/jacob-lyerla">
             Linkedin
           </NavLink>
