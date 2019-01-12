@@ -40,19 +40,7 @@ class LeftPanel extends Component {
       });
     }
   }
-  // componentDidMount(){
-  //   this.setupTech()
-  // }
-  // setupTech =()=>{
 
-  //   axios
-  //   .get("https://jacob-lyerla-resume.herokuapp.com/projects")
-  //   .then(response => {
-  //     this.setState({ project: response.data });
-  //   })
-  //   .catch(err => {
-  //   });
-  // }
   renderTech = () => {
     return this.props.project.map((project, index) => {
       if (this.props.index === index) {
