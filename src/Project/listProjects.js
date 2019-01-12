@@ -20,7 +20,7 @@ const Project = props => {
       <Col md="8" lg="8" className="progress-styles">
         {/* map over our return for each object in our array */}
         <Row>
-          {/* {props.project.map(project => ( */}
+        
           <Col sm="12" md="12" lg="6" xl="12" className="card-styles">
             {/* set up a Link for the card */}
             <Card className={`card${props.index + 1} ${props.gif}${props.index +1} `} id="test">
