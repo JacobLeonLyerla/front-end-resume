@@ -7,17 +7,17 @@ import {
   CardBody,
   ListGroup,
   ListGroupItem,
-  CardLink
 } from "reactstrap";
 import Bubbles from "./loading"
 
 // set up statless component
 
 const Project = props => {
-   if(props.project !== undefined) console.log(props.project.technologies)
+ 
   return (
     <Fragment>
-    {props.project ?(
+
+    {(props.project === undefined ) ?(<Bubbles/>):(
         <Row className="projects-new">
             <Col md="3" className="list-tech"><ListGroup  flush>
             {props.project.technologies.map(project=>(
@@ -92,7 +92,7 @@ const Project = props => {
               
 
   )}
-   </Row>):(<div></div>) }</Fragment>
+   </Row>) }</Fragment>
   );
 };
 // export our component
