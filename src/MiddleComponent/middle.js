@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./MiddleHeader";
 
-import { Col } from "reactstrap";
+
 // stateless component because nothing is set on the state.
 const MiddlePanel = () => {
   return (

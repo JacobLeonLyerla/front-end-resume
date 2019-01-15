@@ -1,5 +1,5 @@
 import React from "react";
-import { Progress, Label, ListGroupItem, ListGroup } from "reactstrap";
+import { Label, ListGroupItem, ListGroup } from "reactstrap";
 
 const ProgressBars = () => {
   return (

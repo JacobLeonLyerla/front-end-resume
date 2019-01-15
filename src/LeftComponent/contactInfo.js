@@ -1,5 +1,5 @@
 import React from "react";
-import { ListGroup, ListGroupItem, Col } from "reactstrap";
+import { ListGroup, ListGroupItem } from "reactstrap";
 const ContactInfo = () => {
   return (
     // this is a list group containing all the info in my contact tab, the styling is given the bootstrap css file, i added into the index.
