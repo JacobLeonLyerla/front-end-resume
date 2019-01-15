@@ -3,7 +3,7 @@ import ReactLoading from "react-loading";
 
 const Bubbles = ({ type, color }) => (
   <div className="loading">
-    <ReactLoading type={"bubbles"} color={"#bedc"} height={667} width={375} />
+    <ReactLoading type={"bubbles"} color={"#73CDE3"} height={667} width={375} />
   </div>
 );
 
