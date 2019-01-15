@@ -5,13 +5,10 @@ import "./App.css";
 import "./css/index.css";
 import { Row } from "reactstrap";
 import Nav from "./Home/nav";
-import LeftPanel from "./LeftComponent/left";
 import MiddlePanel from "./MiddleComponent/middle";
 import RightPanel from "./RightComponent/right";
 import Footer from "./Footer/footer";
-import Projects from "./Project/listProjects";
 import Project from "./Project/projectsFront";
-import Left from "./LeftComponent/left"
 class App extends Component {
   // assign state and name props
   state = {
