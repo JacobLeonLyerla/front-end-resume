@@ -8,7 +8,7 @@
   
  
     
-![Dreamtrekking gif](https://media.giphy.com/media/1zkaVNlSFbY6HQN6uv/giphy.gif)
+![Portfolio gif](https://media.giphy.com/media/1zkaVNlSFbY6HQN6uv/giphy.gif)
 
 # Deployment
 * Website: https://jllportfolio.netlify.com/
