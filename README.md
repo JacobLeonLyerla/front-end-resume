@@ -15,7 +15,7 @@
 
 # Back End Repo
 
-Back End: https://github.com/JacobLeonLyerla/back-end-resume
+* Back End: https://github.com/JacobLeonLyerla/back-end-resume
 
 ## Built With
 * [MongoDB](https://www.mongodb.com/what-is-mongodb) 
