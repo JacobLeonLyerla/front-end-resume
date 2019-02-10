@@ -20,9 +20,11 @@
   color: white;
 }
 .component-styles {
+  padding-top: 5%;
   margin-bottom: 1%;
   padding-right: 1%;
   padding-left: 0.3%;
+  border-top: 3px dotted #2D83AC;
 }
 .row {
   margin-right: 0px;
