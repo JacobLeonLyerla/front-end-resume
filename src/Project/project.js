@@ -17,7 +17,6 @@ import { Link } from "react-router-dom";
 
 class Note extends Component {
   constructor(props) {
-
     super(props);
     this.state = {
       project: []
@@ -44,20 +43,13 @@ class Note extends Component {
   render() {
     return (
       <Col md="7" className="singleCard-styles">
-
         <Card key={this.state.project._id}>
-
           <CardBody>
-
             <CardImg src={this.state.project.img} />
 
-            <CardTitle>
-            {this.state.project.title}
-            </CardTitle>
+            <CardTitle>{this.state.project.title}</CardTitle>
 
-            <CardText>
-            {this.state.project.description}
-            </CardText>
+            <CardText>{this.state.project.description}</CardText>
 
             <CardLink href={this.state.project.github}>
               <div style={{ color: "black" }}>Links</div>:
@@ -70,9 +62,7 @@ class Note extends Component {
           </CardBody>
 
           <Link to={"/projects"} style={{ textDecoration: "none" }}>
-            <Button>
-              Project List
-              </Button>
+            <Button>Project List</Button>
           </Link>
         </Card>
       </Col>
