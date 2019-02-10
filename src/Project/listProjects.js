@@ -1,5 +1,6 @@
 // require react
 import React, { Fragment } from "react";
+
 import {
   Card,
   Row,
@@ -9,6 +10,7 @@ import {
   ListGroupItem,
 
 } from "reactstrap";
+
 import Bubbles from "./loading"
 
 // set up statless component
@@ -31,13 +33,17 @@ const Project = props => {
                 id="test2"
                 className="fas fa-play playgif"
               />
+
               ):(     <i
                 onClick={() => props.toggle("")}
                 id="test2"
                 className="fas fa-pause playgif"
-              />)}</div> 
+              />
+              
+              )}</div> 
             
               <CardBody>
+
                 <div />
 
                 <div className="projectContainer-styles">
@@ -46,21 +52,26 @@ const Project = props => {
                       onClick={() => props.incresseIndex("Left")}
                       className="fas fa-arrow-left fa-2x"
                     />
+
                   </div>
+
                   <div>
                     <i
                       onClick={() => props.incresseIndex("Right")}
                       className="fas fa-arrow-right fa-2x"
                     />
+
                   </div>
+
                 </div>
               </CardBody>
             </Card>
             <ListGroup>
               <div className="links">
                 <a className="link-styles" href={props.project.webpage}>
-                  {" "}
+                
                   <ListGroupItem>View Deployed Site</ListGroupItem>
+               
                 </a>
                 <a className="link-styles" href={props.project.youtube} >{" "}
                
@@ -68,7 +79,8 @@ const Project = props => {
              </a >
                 <a className="link-styles" href={props.project.github}>
                   <ListGroupItem>View The Code</ListGroupItem>
-                </a>
+               
+               </a>
               </div>
             </ListGroup>{" "}
           </Col>
