@@ -10,7 +10,7 @@
   padding-bottom: 0;
   padding-top: 0;
   width: 100%;
-  background: #2D83AC;
+  background: #2d83ac;
 }
 .App .navbar .navbar-brand {
   color: white;
@@ -24,7 +24,7 @@
   margin-bottom: 1%;
   padding-right: 1%;
   padding-left: 0.3%;
-  border-top: 3px dotted #2D83AC;
+  border-top: 3px dotted #2d83ac;
 }
 .row {
   margin-right: 0px;
@@ -36,7 +36,7 @@
   border: none;
 }
 .btn:hover {
-  background: #2D83AC;
+  background: #2d83ac;
 }
 .contactList-styles .fab {
   margin-right: 3%;
@@ -59,7 +59,7 @@
   padding: 0px;
 }
 .contactCard-styles {
-  background: #73CDE3;
+  background: #73cde3;
 }
 .contactCard-styles .contactLabel-styles {
   font-size: 1.4rem;
@@ -78,16 +78,16 @@
   font-size: 25px;
 }
 .list-group .list-group-item {
-  background: #73CDE3;
+  background: #73cde3;
 }
 .tech-container .prof-styles {
   color: black;
-  background: #73CDE3;
+  background: #73cde3;
 }
 .tech-container .list-group-item {
   font-size: 1.3rem;
   background: white;
-  color: #2D83AC;
+  color: #2d83ac;
 }
 .message-styles {
   height: 300px;
@@ -115,7 +115,7 @@
 }
 .leftProgress-styles {
   margin-top: 2%;
-  border-top: 4px solid #73CDE3;
+  border-top: 4px solid #73cde3;
 }
 .leftProgress-styles .progress-styles {
   padding: 0;
@@ -133,7 +133,7 @@
   font-size: 26px;
 }
 .card-text {
-  border-top: 2px solid #2D83AC;
+  border-top: 2px solid #2d83ac;
   font-size: 20px;
   text-align: justify;
   word-spacing: -1px;
@@ -153,33 +153,33 @@
   width: 100%;
   background: #edebc9;
   padding-bottom: 1%;
-  border-bottom: 2px solid #73CDE3;
+  border-bottom: 2px solid #73cde3;
 }
 .progress-styles .text-left {
   font-size: 25px;
 }
 .progress-styles .progress-bar {
-  background: #73CDE3;
+  background: #73cde3;
 }
 .prof-container .list-items {
-  border: 1px solid #73CDE3;
+  border: 1px solid #73cde3;
   height: 85.1vh;
   overflow: auto;
 }
 .prof-container .prof-styles {
   color: black;
-  background: #73CDE3;
+  background: #73cde3;
 }
 .prof-container .list-group-item {
   font-size: 1.3rem;
   background: white;
-  color: #2D83AC;
+  color: #2d83ac;
 }
 .footer-styles {
   width: 100%;
   margin-top: auto;
   align-self: flex-end;
-  background: #B2D1DE !important;
+  background: #b2d1de !important;
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
@@ -195,23 +195,23 @@
 }
 .progress-styles .links {
   font-size: 1rem;
-  color: #2D83AC;
+  color: #2d83ac;
 }
 .progress-styles .links .list-group-item {
   background: white;
 }
 .progress-styles .links .link-styles {
-  color: #2D83AC;
+  color: #2d83ac;
 }
 .progress-styles .links .list-group-item:hover {
-  background: #2D83AC;
+  background: #2d83ac;
   color: white;
 }
 .progress-styles .fas {
-  color: #2D83AC;
+  color: #2d83ac;
 }
 .progress-styles .fas:hover {
-  color: #73CDE3;
+  color: #73cde3;
 }
 .progress-styles .projectContainer-styles {
   display: flex;
@@ -264,7 +264,7 @@
 }
 .progress-styles .card-link:hover {
   color: white;
-  background: #2D83AC;
+  background: #2d83ac;
 }
 .progress-styles .card-img {
   width: 60%;
@@ -277,7 +277,7 @@
   width: 100%;
 }
 .progress-styles .fa-play {
-  color: #2D83AC;
+  color: #2d83ac;
   display: flex;
   font-size: 2.5rem;
   margin-top: 3vh;
@@ -285,11 +285,11 @@
   width: 5vh;
 }
 .progress-styles .fa-play:hover {
-  color: #2D83AC;
+  color: #2d83ac;
   filter: brightness(1.5);
 }
 .progress-styles .fa-pause {
-  color: #2D83AC;
+  color: #2d83ac;
   display: flex;
   font-size: 2rem;
   margin-top: 4vh;
@@ -297,11 +297,11 @@
   width: 5vh;
 }
 .progress-styles .fa-pause:hover {
-  color: #2D83AC;
+  color: #2d83ac;
   filter: brightness(1.5);
 }
 .singleCard-styles .card {
-  background: #73CDE3;
+  background: #73cde3;
 }
 .singleCard-styles .card .card-body .card-title {
   font-size: 50px;
@@ -312,7 +312,7 @@
 }
 .singleCard-styles .card .card-body .card-link:hover {
   color: white;
-  background: #2D83AC;
+  background: #2d83ac;
 }
 .singleCard-styles .card .card-body .card-text {
   font-size: 25px;
@@ -348,7 +348,7 @@
 }
 .my-info {
   width: 100%;
-  background: #2D83AC;
+  background: #2d83ac;
 }
 .projects-new {
   min-height: 100vh;
