@@ -283,7 +283,21 @@
   margin-top: 3vh;
   margin-left: 3vh;
   width: 5vh;
+  animation: pulse 7s;
+  animation-delay: 1s;
+  animation-iteration-count: 3;
+
 }
+  @keyframes pulse {
+    0% {
+  
+      color: #2d83ac;
+      filter: brightness(1.5);
+    }
+    100% {
+      color: #2d83ac;
+    }
+  }
 .progress-styles .fa-play:hover {
   color: #2d83ac;
   filter: brightness(1.5);
