@@ -16,20 +16,20 @@ stay consistant */}
 }>About</NavLink>  
  
         </NavItem> <NavItem>
-          <NavLink href="https://www.linkedin.com/in/jacob-lyerla">
+          <NavLink href="https://www.linkedin.com/in/jacob-lyerla" target="_blank" rel="noopener noreferrer">
             Linkedin
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://twitter.com/JLLCoding">Twitter</NavLink>
+          <NavLink href="https://twitter.com/JLLCoding" target="_blank" rel="noopener noreferrer">Twitter</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://www.youtube.com/channel/UCDaJ3jOVnk67LG0rbky1RGg">
+          <NavLink href="https://www.youtube.com/channel/UCDaJ3jOVnk67LG0rbky1RGg" target="_blank" rel="noopener noreferrer">
             Youtube
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://github.com/JacobLeonLyerla">GitHub</NavLink>
+          <NavLink href="https://github.com/JacobLeonLyerla" target="_blank" rel="noopener noreferrer">GitHub</NavLink>
         </NavItem>
       </Nav>
     </Navbar>
