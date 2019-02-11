@@ -175,6 +175,20 @@
   background: white;
   color: #2d83ac;
 }
+.footer-styles {
+  width: 100%;
+  margin-top: auto;
+  align-self: flex-end;
+  background: #b2d1de !important;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footer-styles .nav-link {
+  color: black;
+  font-size: 1.3rem;
+}
 .loading {
   margin-left: 40vw;
   margin-top: 25vh;
