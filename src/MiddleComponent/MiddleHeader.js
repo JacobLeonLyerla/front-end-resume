@@ -20,6 +20,10 @@ const Header = () => {
           <CardTitle>About Me</CardTitle>
 
           <CardText>
+
+          <p style={{ textAlign: "center", color:"blue", fontWeight:"bold" }}>
+             Currently employed not looking for work, do not contact me about positions. Thank you!
+            </p>
             <p style={{ textAlign: "center" }}>
               My journey to becoming a software developer started while studying
               computer science in college. While I was introduced to C#
