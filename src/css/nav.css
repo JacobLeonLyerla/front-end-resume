@@ -1,0 +1,21 @@
+.body {
+  min-height: 100vh;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.App .navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 100%;
+  background: #2d83ac;
+}
+.App .navbar .navbar-brand {
+  color: white;
+  font-size: 2.6vw;
+}
+.App .navbar .nav-link {
+  color: white;
+}
