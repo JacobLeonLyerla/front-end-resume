@@ -6,7 +6,7 @@ import axios from "axios";
 
 import "./App.css";
 
-import "./css/index.css";
+import "./css/main.css";
 
 import { Row } from "reactstrap";
 
