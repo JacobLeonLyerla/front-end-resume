@@ -1,0 +1,11 @@
+.component-styles {
+  padding-top: 5%;
+  margin-bottom: 1%;
+  padding-right: 1%;
+  padding-left: 0.3%;
+  border-top: 3px dotted #2d83ac;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}

@@ -1,0 +1,32 @@
+.progress-styles {
+  font-size: 20px;
+}
+.progress-styles .label-styles {
+  font-size: 30px;
+}
+.progress-styles .label-styles {
+  width: 100%;
+  background: #edebc9;
+  padding-bottom: 1%;
+  border-bottom: 2px solid #73cde3;
+}
+.progress-styles .text-left {
+  font-size: 25px;
+}
+.progress-styles .progress-bar {
+  background: #73cde3;
+}
+.prof-container .list-items {
+  border: 1px solid #73cde3;
+  height: 85.1vh;
+  overflow: auto;
+}
+.prof-container .prof-styles {
+  color: black;
+  background: #73cde3;
+}
+.prof-container .list-group-item {
+  font-size: 1.3rem;
+  background: white;
+  color: #2d83ac;
+}

@@ -1,0 +1,54 @@
+.contactList-styles .fab {
+  margin-right: 3%;
+  font-size: 2.5rem;
+}
+.contactList-styles .list-group-item {
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs {
+  background: #edebc9;
+}
+.nav-tabs .nav-link {
+  cursor: pointer;
+}
+.nav-tabs .row {
+  width: 100%;
+}
+.nav-tabs .row .col-md-12 {
+  padding: 0px;
+}
+.contactCard-styles {
+  background: #73cde3;
+}
+.contactCard-styles .contactLabel-styles {
+  font-size: 1.4rem;
+  text-align: left;
+  width: 100%;
+}
+.contactCard-styles .form-control {
+  font-size: 1rem;
+}
+.form-control {
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+.list-group {
+  color: white;
+  font-size: 25px;
+}
+.list-group .list-group-item {
+  background: #73cde3;
+}
+.tech-container .prof-styles {
+  color: black;
+  background: #73cde3;
+}
+.tech-container .list-group-item {
+  font-size: 1.3rem;
+  background: white;
+  color: #2d83ac;
+}
+.message-styles {
+  height: 300px;
+}

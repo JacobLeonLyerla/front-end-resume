@@ -1,0 +1,34 @@
+.modal-content {
+  margin-top: 40%;
+  background: #90c4b9;
+  color: white;
+}
+.modal-content .modal-title {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-content .modal-body {
+  font-size: 20px;
+}
+.modal-content .modalbutton-styles {
+  margin: 0 auto;
+  width: 30%;
+  font-size: 17px;
+}
+.modal-content .close {
+  color: #edebc9;
+}
+.leftProgress-styles {
+  margin-top: 2%;
+  border-top: 4px solid #73cde3;
+}
+.leftProgress-styles .progress-styles {
+  padding: 0;
+}
+.leftProgress-styles .label-styles {
+  display: none;
+}
+.prof-styles {
+  width: 100%;
+}
