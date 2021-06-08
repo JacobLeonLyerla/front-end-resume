@@ -21,7 +21,6 @@ const Header = () => {
 
           <CardText>
 
-      
             <p style={{ textAlign: "center" }}>
               My journey to becoming a software developer started while studying
               computer science in college. While I was introduced to C#
