@@ -8,13 +8,7 @@ const Header = () => {
   return (
     <Col md="8" lg="8">
       <Card>
-        <CardImg
-          className="selfie"
-          top
-          width="100%"
-          src={selfie}
-          alt="Picture of a wizard reading."
-        />
+
 
         <CardBody>
           <CardTitle>About Me</CardTitle>
