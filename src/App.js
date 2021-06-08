@@ -77,7 +77,7 @@ class App extends Component {
 
         <Route path="/" component={Nav} />
 
-        <Route
+        {/* <Route
           exact
           path="/"
           render={props => (
@@ -91,7 +91,7 @@ class App extends Component {
               gif={this.state.gif}
             />
           )}
-        />
+        /> */}
         {/* rendering the left, middle and right components,
 using a row and columns to size them correctly */}
         <Row className="component-styles">
