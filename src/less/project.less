@@ -1,13 +1,41 @@
 @import "variables";
 .loading {
-    margin-left: 40vw;
-    margin-top: 25vh;
+  margin-left: 40vw;
+  margin-top: 25vh;
+}
+.preview-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+
+  .project-image {
+    width: 70.1vw;
+    margin: 0 auto;
+    position: relative;
+    .fa-arrow-left {
+      position: absolute;
+      left: 0;
+      margin-top: 17vw;
+    }
+    .fa-arrow-right {
+      position: absolute;
+      right: 0;
+      margin-top: 17vw;
+    }
+  }
+  .dependencies-container {
+    height: 74.8vh;
+    width: 25vw;
+    .prof-styles {
+      color: black;
+      background: @secondary-color;
+    }
   }
   .progress-styles {
     .links {
       font-size: 1rem;
       color: @main-color;
-  
+
       .list-group-item {
         background: white;
       }
@@ -19,163 +47,163 @@
         color: white;
       }
     }
-  
-    .fas {
-      color: @main-color;
-    }
-    .fas:hover {
-      color: @secondary-color;
-    }
-    .projectContainer-styles {
-      display: flex;
-      justify-content: space-between;
-  
-      width: 100%;
-      margin: 0 auto;
-      margin-top: 19%;
-      height: 60px;
-      color: white;
-    }
-    .card-styles {
-      .btn {
-        border-radius: 0px;
-      }
-  
-      .card {
-        color: black;
-        min-height: 70vh;
-        background-image: url("../assets//dungeonRun.png");
-        background-size: 100% 100%;
-      }
-      .card2 {
-        background-image: url("https://i.imgur.com/JZmm1MC.png");
-        background-size: 100% 100%;
-      }
-      .card3 {
-        background-image: url("https://i.imgur.com/ulJIhdz.png");
-        background-size: 100% 100%;
-      }
-      .card4 {
-        background-image: url("../assets/dreamtrekking.png");
-        background-size: 100% 100%;
-      }
-  
-      .card-link {
-        color: white;
-      }
-      .gif1 {
-        background-image: url("../assets/dungeonRace.gif");
-        background-size: 100% 100%;
-      }
-      .gif2 {
-        background-image: url("../assets/checkmytone.gif");
-        background-size: 100% 100%;
-      }
-  
-      .gif3 {
-        background-image: url("../assets/note.gif");
-        background-size: 100% 100%;
-      }
-      .gif4 {
-        background-image: url("../assets/dreamtrekking.gif");
-        background-size: 100% 100%;
-      }
-    }
-    .card-link:hover {
-      color: white;
-      background: @main-color;
-    }
-    .card-img {
-      width: 60%;
-      background-size: cover; /* <------ */
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-    .fa-play {
-      color: @main-color;
-      display: flex;
-      font-size: 2.5rem;
-      margin-top: 3vh;
-      margin-left: 3vh;
-      width: 5vh;
-    }
-    .fa-play:hover {
-      color: @main-color;
-      filter: brightness(1.5);
-    }
-    .fa-pause {
-      color: @main-color;
-      display: flex;
-      font-size: 2rem;
-      margin-top: 4vh;
-      margin-left: 3vh;
-      width: 5vh;
-    }
-    .fa-pause:hover {
-      color: @main-color;
-      filter: brightness(1.5);
-    }
   }
-  .singleCard-styles {
-    .card {
-      background: @secondary-color;
-      .card-body {
-        .card-title {
-          font-size: 50px;
-        }
-        .card-link {
-          color: cornflowerblue;
-          font-size: 15px;
-        }
-        .card-link:hover {
-          color: white;
-          background: @main-color;
-        }
-        .card-text {
-          font-size: 25px;
-        }
-      }
-      .card-img {
-        width: 10%;
-      }
-      .btn {
-        width: 20%;
-      }
-    }
+
+  .fas {
+    color: @main-color;
   }
-  .list-tech {
-    padding: 0px;
-  
-    .list-group-item {
-      font-size: 1.4vw;
-    }
+  .fas:hover {
+    color: @secondary-color;
+  }
+  .projectContainer-styles {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 19%;
+    height: 60px;
+    color: white;
   }
   .card-styles {
-    padding: 0;
-    margin-top: 0px;
+    .btn {
+      border-radius: 0px;
+    }
+
+    .card {
+      color: black;
+      min-height: 70vh;
+      background-image: url("../assets//movieknight.png.gif");
+      background-size: 100% 100%;
+    }
+    .card2 {
+      background-image: url("https://i.imgur.com/JZmm1MC.png");
+      background-size: 100% 100%;
+    }
+    .card3 {
+      background-image: url("https://i.imgur.com/ulJIhdz.png");
+      background-size: 100% 100%;
+    }
+    .card4 {
+      background-image: url("../assets/dreamtrekking.png");
+      background-size: 100% 100%;
+    }
+
+    .card-link {
+      color: white;
+    }
+    .gif1 {
+      background-image: url("../assets/dungeonRace.gif");
+      background-size: 100% 100%;
+    }
+    .gif2 {
+      background-image: url("../assets/checkmytone.gif");
+      background-size: 100% 100%;
+    }
+
+    .gif3 {
+      background-image: url("../assets/note.gif");
+      background-size: 100% 100%;
+    }
+    .gif4 {
+      background-image: url("../assets/dreamtrekking.gif");
+      background-size: 100% 100%;
+    }
   }
-  .about-me {
-    display: flex;
-    flex-direction: row;
-  }
-  .selfie {
-    max-height: 20vw;
-    max-width: 20vw;
-  }
-  .fa-angle-down {
-    margin: 0 auto;
+  .card-link:hover {
     color: white;
-    font-size: 3vw;
-  }
-  .my-info {
-    width: 100%;
     background: @main-color;
   }
-  .projects-new {
-    min-height: 100vh;
+  .card-img {
+    width: 60%;
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
   }
-  
+
+  .btn {
+    width: 100%;
+  }
+  .fa-play {
+    color: @main-color;
+    display: flex;
+    font-size: 2.5rem;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    width: 5vh;
+  }
+  .fa-play:hover {
+    color: @main-color;
+    filter: brightness(1.5);
+  }
+  .fa-pause {
+    color: @main-color;
+    display: flex;
+    font-size: 2rem;
+    margin-top: 4vh;
+    margin-left: 3vh;
+    width: 5vh;
+  }
+  .fa-pause:hover {
+    color: @main-color;
+    filter: brightness(1.5);
+  }
+}
+.singleCard-styles {
+  .card {
+    background: @secondary-color;
+    .card-body {
+      .card-title {
+        font-size: 50px;
+      }
+      .card-link {
+        color: cornflowerblue;
+        font-size: 15px;
+      }
+      .card-link:hover {
+        color: white;
+        background: @main-color;
+      }
+      .card-text {
+        font-size: 25px;
+      }
+    }
+    .card-img {
+      width: 10%;
+    }
+    .btn {
+      width: 20%;
+    }
+  }
+}
+.list-tech {
+  padding: 0px;
+
+  .list-group-item {
+    font-size: 1.4vw;
+  }
+}
+.card-styles {
+  padding: 0;
+  margin-top: 0px;
+}
+.about-me {
+  display: flex;
+  flex-direction: row;
+}
+.selfie {
+  max-height: 20vw;
+  max-width: 20vw;
+}
+.fa-angle-down {
+  margin: 0 auto;
+  color: white;
+  font-size: 3vw;
+}
+.my-info {
+  width: 100%;
+  background: @main-color;
+}
+.projects-new {
+  min-height: 100vh;
+}

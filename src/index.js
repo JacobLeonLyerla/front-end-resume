@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 // where my reactstrap components get their styling
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/project.css"
 import "./css/index.css";
 import "./index.css";
 import App from "./App";

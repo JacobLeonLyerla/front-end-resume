@@ -5,7 +5,7 @@ const HomeNav = () => {
   return (
     // this is the main brand or logo for the page
     <Navbar light expand="md">
-      <NavbarBrand href="/">Jacob Leon Lyerla</NavbarBrand>
+      <NavbarBrand href="/">Jacob Lyerla</NavbarBrand>
       {/* nav bar set to ml-auto  just set up automatic margins m stand for margin and l is for left, margins
 stay consistant */}
       <Nav className="ml-auto" navbar>
