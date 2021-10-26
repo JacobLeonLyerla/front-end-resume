@@ -8,7 +8,7 @@ const ProjectDependencies = ({ project }) => {
   return (
     <Col md="8" lg="8"  className="progress-styles prof-container dependencies-container" >
      <ListGroup>
-      <Label className="prof-styles">dependencies</Label>
+      <Label className="prof-styles">Technologies</Label>
       <div className="list-techs list-items">
         {
      
