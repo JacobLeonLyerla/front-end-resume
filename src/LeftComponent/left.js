@@ -13,11 +13,9 @@ import {
   ListGroupItem,
   Label
 } from "reactstrap";
-import axios from "axios";
 import classnames from "classnames";
 import ContactInfo from "./contactInfo";
 import ContactForm from "./contactForm";
-import Progress from "../RightComponent/progress";
 // setting up a class that extends from the Component, that is given from react,
 // another way to do tihs is to use "React.Component" then you do not need to import Component, but i prefer just to import it.
 class LeftPanel extends Component {
