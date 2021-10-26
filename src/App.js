@@ -3,14 +3,17 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 
 import axios from "axios";
-
+import "./css/project.css"
 import "./App.css";
 
 import "./css/main.css";
 
+
 import { Row } from "reactstrap";
 
 import Nav from "./Home/nav";
+
+import ProjectPreview from "./Project/projectPreview.component";
 
 import MiddlePanel from "./MiddleComponent/middle";
 
@@ -18,7 +21,6 @@ import RightPanel from "./RightComponent/right";
 
 import Footer from "./Footer/footer";
 
-import Project from "./Project/projectsFront";
 
 class App extends Component {
   // assign state and name props
@@ -63,9 +65,9 @@ class App extends Component {
     this.setState({ index, gif: "" });
   };
 
-  toggleGif = gif => {
-    this.setState({ gif });
-  };
+  // toggleGif = gif => {
+  //   this.setState({ gif });
+  // };
   render() {
     return (
       <div className="App">
@@ -77,24 +79,11 @@ class App extends Component {
 
         <Route path="/" component={Nav} />
 
-        {/* <Route
-          exact
-          path="/"
-          render={props => (
-            <Project
-              {...props}
-              project={this.state.projects[this.state.index]}
-              index={this.state.index}
-              incresseIndex={this.incresseIndex}
-              toggle={this.toggleGif}
-              unToggle={this.unToggleGif}
-              gif={this.state.gif}
-            />
-          )}
-        /> */}
+         <ProjectPreview/>
         {/* rendering the left, middle and right components,
 using a row and columns to size them correctly */}
-        <Row className="component-styles">
+        <Row className="component-styles"> 
+      
           <Route exact path="/" component={RightPanel} />
           <Route exact path="/" component={MiddlePanel} />
         </Row>
