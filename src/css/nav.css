@@ -12,6 +12,9 @@
   width: 100%;
   background: #2d83ac;
 }
+.App .navbar .navbar-nav {
+  margin-left: auto;
+}
 .App .navbar .navbar-brand {
   color: white;
   font-size: 2.6vw;

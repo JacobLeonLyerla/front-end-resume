@@ -16,6 +16,10 @@
 .progress-styles .progress-bar {
   background: #73cde3;
 }
+.prof-container {
+  width: 25vw;
+  padding-left: 0px;
+}
 .prof-container .list-items {
   border: 1px solid #73cde3;
   height: 85.1vh;

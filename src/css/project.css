@@ -2,27 +2,55 @@
   margin-left: 40vw;
   margin-top: 25vh;
 }
-.progress-styles .links {
+.preview-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+}
+.preview-container .project-image {
+  width: 70.1vw;
+  margin: 0 auto;
+  position: relative;
+}
+.preview-container .project-image .fa-arrow-left {
+  position: absolute;
+  left: 0;
+  margin-top: 17vw;
+}
+.preview-container .project-image .fa-arrow-right {
+  position: absolute;
+  right: 0;
+  margin-top: 17vw;
+}
+.preview-container .dependencies-container {
+  height: 74.8vh;
+  width: 25vw;
+}
+.preview-container .dependencies-container .prof-styles {
+  color: black;
+  background: #73cde3;
+}
+.preview-container .progress-styles .links {
   font-size: 1rem;
   color: #2d83ac;
 }
-.progress-styles .links .list-group-item {
+.preview-container .progress-styles .links .list-group-item {
   background: white;
 }
-.progress-styles .links .link-styles {
+.preview-container .progress-styles .links .link-styles {
   color: #2d83ac;
 }
-.progress-styles .links .list-group-item:hover {
+.preview-container .progress-styles .links .list-group-item:hover {
   background: #2d83ac;
   color: white;
 }
-.progress-styles .fas {
+.preview-container .fas {
   color: #2d83ac;
 }
-.progress-styles .fas:hover {
+.preview-container .fas:hover {
   color: #73cde3;
 }
-.progress-styles .projectContainer-styles {
+.preview-container .projectContainer-styles {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -31,61 +59,61 @@
   height: 60px;
   color: white;
 }
-.progress-styles .card-styles .btn {
+.preview-container .card-styles .btn {
   border-radius: 0px;
 }
-.progress-styles .card-styles .card {
+.preview-container .card-styles .card {
   color: black;
   min-height: 70vh;
-  background-image: url("../assets//dungeonRun.png");
+  background-image: url("../assets//movieknight.png.gif");
   background-size: 100% 100%;
 }
-.progress-styles .card-styles .card2 {
+.preview-container .card-styles .card2 {
   background-image: url("https://i.imgur.com/JZmm1MC.png");
   background-size: 100% 100%;
 }
-.progress-styles .card-styles .card3 {
+.preview-container .card-styles .card3 {
   background-image: url("https://i.imgur.com/ulJIhdz.png");
   background-size: 100% 100%;
 }
-.progress-styles .card-styles .card4 {
+.preview-container .card-styles .card4 {
   background-image: url("../assets/dreamtrekking.png");
   background-size: 100% 100%;
 }
-.progress-styles .card-styles .card-link {
+.preview-container .card-styles .card-link {
   color: white;
 }
-.progress-styles .card-styles .gif1 {
+.preview-container .card-styles .gif1 {
   background-image: url("../assets/dungeonRace.gif");
   background-size: 100% 100%;
 }
-.progress-styles .card-styles .gif2 {
+.preview-container .card-styles .gif2 {
   background-image: url("../assets/checkmytone.gif");
   background-size: 100% 100%;
 }
-.progress-styles .card-styles .gif3 {
+.preview-container .card-styles .gif3 {
   background-image: url("../assets/note.gif");
   background-size: 100% 100%;
 }
-.progress-styles .card-styles .gif4 {
+.preview-container .card-styles .gif4 {
   background-image: url("../assets/dreamtrekking.gif");
   background-size: 100% 100%;
 }
-.progress-styles .card-link:hover {
+.preview-container .card-link:hover {
   color: white;
   background: #2d83ac;
 }
-.progress-styles .card-img {
+.preview-container .card-img {
   width: 60%;
   background-size: cover;
   /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
 }
-.progress-styles .btn {
+.preview-container .btn {
   width: 100%;
 }
-.progress-styles .fa-play {
+.preview-container .fa-play {
   color: #2d83ac;
   display: flex;
   font-size: 2.5rem;
@@ -93,11 +121,11 @@
   margin-left: 3vh;
   width: 5vh;
 }
-.progress-styles .fa-play:hover {
+.preview-container .fa-play:hover {
   color: #2d83ac;
   filter: brightness(1.5);
 }
-.progress-styles .fa-pause {
+.preview-container .fa-pause {
   color: #2d83ac;
   display: flex;
   font-size: 2rem;
@@ -105,7 +133,7 @@
   margin-left: 3vh;
   width: 5vh;
 }
-.progress-styles .fa-pause:hover {
+.preview-container .fa-pause:hover {
   color: #2d83ac;
   filter: brightness(1.5);
 }
