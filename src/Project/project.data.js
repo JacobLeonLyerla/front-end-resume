@@ -11,10 +11,13 @@ export const PROJECT_DATA = [
     webpage: "https://movieknight.netlify.app/",
     dependencies: [
       "React",
+      "JavaScript",
       "Firebase",
       "React-Router",
       "React Context",
-      "ReactStrap",
+      "Reactstrap/Bootstrap",
+      "LESS",
+      "HTML/CSS",
     ],
   },
 ];
