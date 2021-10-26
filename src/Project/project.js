@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-import axios from "axios";
-
+import { PROJECT_DATA } from "./project.data";
 import {
   CardText,
   CardBody,
@@ -10,64 +9,39 @@ import {
   CardImg,
   CardTitle,
   Button,
-  Col
+  Col,
 } from "reactstrap";
 
 import { Link } from "react-router-dom";
 
-class Note extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      project: []
-    };
-  }
+const Note = () => {
+  const {img,title,description,githubFrontend} = PROJECT_DATA
+  return (
+    <Col md="7" className="singleCard-styles">
+      <Card key={id}>
+        <CardBody>
+          <CardImg src={img} />
 
-  componentDidMount() {
-    const { id } = this.props.match.params;
+          <CardTitle>{title}</CardTitle>
 
-    this.getProjectById(id);
-  }
+          <CardText>{description}</CardText>
 
-  getProjectById = id => {
-    axios
-      .get(`https://jacob-lyerla-resume.herokuapp.com/projects/${id}`)
-      .then(response => {
-        this.setState(() => ({ project: response.data }));
-      })
-      .catch(err => {
-        console.log("failed to get note");
-      });
-  };
+          <CardLink href={this.state.project.github}>
+            <div style={{ color: "black" }}>Links</div>:
+            {this.state.project.github}
+          </CardLink>
 
-  render() {
-    return (
-      <Col md="7" className="singleCard-styles">
-        <Card key={this.state.project._id}>
-          <CardBody>
-            <CardImg src={this.state.project.img} />
+          <CardLink href={this.state.project.youtube}>
+            {this.state.project.youtube}
+          </CardLink>
+        </CardBody>
 
-            <CardTitle>{this.state.project.title}</CardTitle>
-
-            <CardText>{this.state.project.description}</CardText>
-
-            <CardLink href={this.state.project.github}>
-              <div style={{ color: "black" }}>Links</div>:
-              {this.state.project.github}
-            </CardLink>
-
-            <CardLink href={this.state.project.youtube}>
-              {this.state.project.youtube}
-            </CardLink>
-          </CardBody>
-
-          <Link to={"/projects"} style={{ textDecoration: "none" }}>
-            <Button>Project List</Button>
-          </Link>
-        </Card>
-      </Col>
-    );
-  }
-}
+        <Link to={"/projects"} style={{ textDecoration: "none" }}>
+          <Button>Project List</Button>
+        </Link>
+      </Card>
+    </Col>
+  );
+};
 
 export default Note;
