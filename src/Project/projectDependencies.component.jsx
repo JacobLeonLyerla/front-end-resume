@@ -14,7 +14,7 @@ const ProjectDependencies = ({ project }) => {
      
        
           dependencies.map((dependency) => (
-              <ListGroupItem>{dependency}</ListGroupItem>
+              <ListGroupItem key={`${dependency}-${id}`}>{dependency}</ListGroupItem>
             ))
           
         }

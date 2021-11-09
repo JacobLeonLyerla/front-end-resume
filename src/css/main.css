@@ -262,21 +262,25 @@
 .preview-container .card-styles .btn {
   border-radius: 0px;
 }
-.preview-container .card-styles .card {
+.preview-container .card-styles .card1 {
   color: black;
   min-height: 70vh;
   background-image: url("../assets//movieknight.png.gif");
   background-size: 100% 100%;
 }
 .preview-container .card-styles .card2 {
-  background-image: url("https://i.imgur.com/JZmm1MC.png");
+  background-image: url("../assets/shopport.png");
   background-size: 100% 100%;
 }
 .preview-container .card-styles .card3 {
-  background-image: url("https://i.imgur.com/ulJIhdz.png");
+  background-image: url("https://i.imgur.com/JZmm1MC.png");
   background-size: 100% 100%;
 }
 .preview-container .card-styles .card4 {
+  background-image: url("https://i.imgur.com/ulJIhdz.png");
+  background-size: 100% 100%;
+}
+.preview-container .card-styles .card5 {
   background-image: url("../assets/dreamtrekking.png");
   background-size: 100% 100%;
 }

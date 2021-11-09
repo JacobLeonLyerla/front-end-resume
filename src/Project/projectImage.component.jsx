@@ -4,7 +4,7 @@ import "../css/project.css"
 import { Card, Row, Col, CardBody, ListGroup, ListGroupItem } from "reactstrap";
 
 const ProjectImage = ({ project,leftArrow,rightArrow }) => {
-  const { githubFrontend, id, webpage } = project;
+  const { githubFrontend, id, webpage,githubBackend } = project;
   return (
     <Col md="8" lg="8" className="progress-styles project-image">
       
@@ -26,8 +26,11 @@ const ProjectImage = ({ project,leftArrow,rightArrow }) => {
                 <ListGroupItem>View Deployed Site</ListGroupItem>
               </a>
               <a className="link-styles" target="_blank" href={githubFrontend}>
-                <ListGroupItem>View The Code</ListGroupItem>
+                <ListGroupItem>Front-End Code</ListGroupItem>
               </a>
+              {githubBackend?<a className="link-styles" target="_blank" href={githubBackend}>
+                <ListGroupItem>Back-End Code</ListGroupItem>
+              </a> :null}
             </div>
           </ListGroup>{" "}
         </Col>
