@@ -21,28 +21,6 @@ export const PROJECT_DATA = [
     ],
   },
   {
-    img: movieknight,
-    title: "Shopport",
-    description:
-      "Site for browsing movies currently adding the ability to log and intereact more with the site. Doing things like saving and rating movies",
-    githubFrontend: "https://github.com/JacobLeonLyerla/shopport",
-    id: "2",
-    webpage: "https://shopport.netlify.app/",
-    dependencies: [
-      "React",
-      "Redux",
-      "Redux Persist",
-      "Reselect",
-      "JavaScript",
-      "Firebase",
-      "React-Router",
-      "React Context",
-      "Reactstrap/Bootstrap",
-      "SASS",
-      "HTML/CSS",
-    ],
-  },
-  {
     title: "Dream Trekking",
     description:
       "Connect and share your vactions with a community of adventurers",
