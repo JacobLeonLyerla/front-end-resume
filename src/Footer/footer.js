@@ -35,11 +35,6 @@ const Footer = () => {
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://www.youtube.com/channel/UCDaJ3jOVnk67LG0rbky1RGg"target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-youtube-square" />
-          </NavLink>
-        </NavItem>
-        <NavItem>
           <NavLink href="https://github.com/JacobLeonLyerla" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-github-square" />
           </NavLink>
