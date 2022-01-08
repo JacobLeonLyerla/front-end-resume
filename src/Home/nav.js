@@ -24,10 +24,7 @@ stay consistant */}
           <NavLink href="https://twitter.com/JLLCoding" target="_blank" rel="noopener noreferrer">Twitter</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://www.youtube.com/channel/UCDaJ3jOVnk67LG0rbky1RGg" target="_blank" rel="noopener noreferrer">
-            Youtube
-          </NavLink>
-        </NavItem>
+   
         <NavItem>
           <NavLink href="https://github.com/JacobLeonLyerla" target="_blank" rel="noopener noreferrer">GitHub</NavLink>
         </NavItem>
