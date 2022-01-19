@@ -23,7 +23,6 @@ stay consistant */}
         <NavItem>
           <NavLink href="https://twitter.com/JLLCoding" target="_blank" rel="noopener noreferrer">Twitter</NavLink>
         </NavItem>
-        <NavItem>
    
         <NavItem>
           <NavLink href="https://github.com/JacobLeonLyerla" target="_blank" rel="noopener noreferrer">GitHub</NavLink>
